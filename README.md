@@ -36,7 +36,7 @@ Also I have used some EE3 code to help with various things but I don't remember 
 	* It was used in the ConfigurationHandler.
 	* It was used in the onBlockActivate on all the machines.
 	* I think the Network and Proxy files.
-	* The creative tabs cod in CivCraftBase.
+	* The creative tabs code in CivCraftBase.
 
 The GitHub for EE3 can be found [here](https://github.com/pahimar/Equivalent-Exchange-3).
 
