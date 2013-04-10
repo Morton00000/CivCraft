@@ -13,7 +13,7 @@ Pooperman has since stopped working on the mod and has given me permision to mak
 
 **Any help is appreciated.**
 ***
-###Mod Direcrion Information
+###Mod Direction Information
 
 Curently the only things to work on are:
 
