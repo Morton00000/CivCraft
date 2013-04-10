@@ -12,12 +12,13 @@ Pooperman has since stopped working on the mod and has given me permision to mak
 **I do not know Java but have managed to figure out enough to get the mod to its current state.**
 
 **Any help is appreciated.**
-
-I also believe the mod needs a name change but don't know of a good name for it.
 ***
 ###Mod Direcrion Information
 
-Curently the only thing to work on is getting the Mold Furnace to smelt a mold and the reqired materials into either a tool head or a armor piece.
+Curently the only things to work on are:
+
+	* Getting the Mold Furnace to smelt a mold and the reqired materials into either a tool head or a armor piece.
+	* Renaming the mod to something more proper.
 
 ***
 ###Other Information
