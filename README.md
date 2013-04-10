@@ -13,3 +13,5 @@ I also believe the mod needs a name change but don't know of a good name for it.
 
 Also I have used some EE3 code to help with various things but I don't remember the exact areas where it is used.
 The GitHub for EE3 can be found [here](https://github.com/pahimar/Equivalent-Exchange-3).
+
+If you would like to compile the mod then follow the instructions on the EE3 GitHub.
