@@ -65,6 +65,7 @@ public class CivCraftBase {
 
 	}
 
+	@SuppressWarnings("deprecation")
 	@Init
 	public void load(FMLInitializationEvent event) {
 

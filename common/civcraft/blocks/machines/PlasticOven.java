@@ -99,7 +99,6 @@ public class PlasticOven extends BlockContainer {
 		}
 	}
 
-	@Override
 	@SideOnly(Side.CLIENT)
 	/**
 	 * From the specified side and block metadata retrieves the blocks texture. Args: side, metadata

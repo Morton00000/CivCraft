@@ -15,9 +15,8 @@ public class ItemSpadeCC extends ItemSpade {
 		// TODO Auto-generated constructor stub
 	}
 
-	@Override
 	@SideOnly(Side.CLIENT)
 	public void updateIcons(IconRegister iconRegister) {
-		iconIndex = iconRegister.registerIcon("/mods/CivCraft/textures/items/tools/" + this.getUnlocalizedName().substring(this.getUnlocalizedName().indexOf(".") + 1) + ".png");
+		itemIcon = iconRegister.registerIcon("/mods/CivCraft/textures/items/tools/" + this.getUnlocalizedName().substring(this.getUnlocalizedName().indexOf(".") + 1) + ".png");
 	}
 }

@@ -43,7 +43,6 @@ public class BlockOre extends Block {
 		textures[10] = iconRegistry.registerIcon("/mods/CivCraft/textures/blocks/ore/oreUranium.png");
 	}
 
-	@Override
 	public Icon getBlockTextureFromSideAndMetadata(int blockSide, int blockMeta) {
 		return textures[blockMeta];
 	}

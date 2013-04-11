@@ -48,7 +48,6 @@ public class BlockBlock extends Block {
 		textures[15] = iconRegistry.registerIcon("/mods/CivCraft/textures/blocks/block/blockSilicon.png");
 	}
 
-	@Override
 	public Icon getBlockTextureFromSideAndMetadata(int blockSide, int blockMeta) {
 		return textures[blockMeta];
 	}

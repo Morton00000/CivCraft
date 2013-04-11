@@ -22,7 +22,7 @@ public class RecipesToolsHeads {
 		CraftingManager.getInstance().getRecipeList().add(new ShapedOreRecipe(new ItemStack(Tools.axeDUranium, 1), new Object[] { "x", "y", 'x', ToolHeads.axeHeadDUranium, 'y', "stickWood" }));
 		CraftingManager.getInstance().getRecipeList().add(new ShapedOreRecipe(new ItemStack(Tools.axeDCarbide, 1), new Object[] { "x", "y", 'x', ToolHeads.axeHeadDCarbide, 'y', "stickWood" }));
 
-		CraftingManager.getInstance().getRecipeList().add(new ShapedOreRecipe(new ItemStack(Item.axeSteel, 1), new Object[] { "x", "y", 'x', ToolHeads.axeHeadIron, 'y', "stickWood" }));
+		CraftingManager.getInstance().getRecipeList().add(new ShapedOreRecipe(new ItemStack(Item.axeIron, 1), new Object[] { "x", "y", 'x', ToolHeads.axeHeadIron, 'y', "stickWood" }));
 		CraftingManager.getInstance().getRecipeList().add(new ShapedOreRecipe(new ItemStack(Item.axeGold, 1), new Object[] { "x", "y", 'x', ToolHeads.axeHeadGold, 'y', "stickWood" }));
 
 		// Hoe
@@ -35,7 +35,7 @@ public class RecipesToolsHeads {
 		CraftingManager.getInstance().getRecipeList().add(new ShapedOreRecipe(new ItemStack(Tools.hoeDUranium, 1), new Object[] { "x", "y", 'x', ToolHeads.hoeHeadDUranium, 'y', "stickWood" }));
 		CraftingManager.getInstance().getRecipeList().add(new ShapedOreRecipe(new ItemStack(Tools.hoeDCarbide, 1), new Object[] { "x", "y", 'x', ToolHeads.hoeHeadDCarbide, 'y', "stickWood" }));
 
-		CraftingManager.getInstance().getRecipeList().add(new ShapedOreRecipe(new ItemStack(Item.hoeSteel, 1), new Object[] { "x", "y", 'x', ToolHeads.hoeHeadIron, 'y', "stickWood" }));
+		CraftingManager.getInstance().getRecipeList().add(new ShapedOreRecipe(new ItemStack(Item.hoeIron, 1), new Object[] { "x", "y", 'x', ToolHeads.hoeHeadIron, 'y', "stickWood" }));
 		CraftingManager.getInstance().getRecipeList().add(new ShapedOreRecipe(new ItemStack(Item.hoeGold, 1), new Object[] { "x", "y", 'x', ToolHeads.hoeHeadGold, 'y', "stickWood" }));
 
 		// Shovels
@@ -48,7 +48,7 @@ public class RecipesToolsHeads {
 		CraftingManager.getInstance().getRecipeList().add(new ShapedOreRecipe(new ItemStack(Tools.spadeDUranium, 1), new Object[] { "x", "y", 'x', ToolHeads.spadeHeadDUranium, 'y', "stickWood" }));
 		CraftingManager.getInstance().getRecipeList().add(new ShapedOreRecipe(new ItemStack(Tools.spadeDCarbide, 1), new Object[] { "x", "y", 'x', ToolHeads.spadeHeadDCarbide, 'y', "stickWood" }));
 
-		CraftingManager.getInstance().getRecipeList().add(new ShapedOreRecipe(new ItemStack(Item.shovelSteel, 1), new Object[] { "x", "y", 'x', ToolHeads.spadeHeadIron, 'y', "stickWood" }));
+		CraftingManager.getInstance().getRecipeList().add(new ShapedOreRecipe(new ItemStack(Item.shovelIron, 1), new Object[] { "x", "y", 'x', ToolHeads.spadeHeadIron, 'y', "stickWood" }));
 		CraftingManager.getInstance().getRecipeList().add(new ShapedOreRecipe(new ItemStack(Item.shovelGold, 1), new Object[] { "x", "y", 'x', ToolHeads.spadeHeadGold, 'y', "stickWood" }));
 
 		// Pickaxe
@@ -61,7 +61,7 @@ public class RecipesToolsHeads {
 		CraftingManager.getInstance().getRecipeList().add(new ShapedOreRecipe(new ItemStack(Tools.pickaxeDUranium, 1), new Object[] { "x", "y", 'x', ToolHeads.pickHeadDUranium, 'y', "stickWood" }));
 		CraftingManager.getInstance().getRecipeList().add(new ShapedOreRecipe(new ItemStack(Tools.pickaxeDCarbide, 1), new Object[] { "x", "y", 'x', ToolHeads.pickHeadDCarbide, 'y', "stickWood" }));
 
-		CraftingManager.getInstance().getRecipeList().add(new ShapedOreRecipe(new ItemStack(Item.pickaxeSteel, 1), new Object[] { "x", "y", 'x', ToolHeads.pickHeadIron, 'y', "stickWood" }));
+		CraftingManager.getInstance().getRecipeList().add(new ShapedOreRecipe(new ItemStack(Item.pickaxeIron, 1), new Object[] { "x", "y", 'x', ToolHeads.pickHeadIron, 'y', "stickWood" }));
 		CraftingManager.getInstance().getRecipeList().add(new ShapedOreRecipe(new ItemStack(Item.pickaxeGold, 1), new Object[] { "x", "y", 'x', ToolHeads.pickHeadGold, 'y', "stickWood" }));
 
 		// Swords
@@ -74,7 +74,7 @@ public class RecipesToolsHeads {
 		CraftingManager.getInstance().getRecipeList().add(new ShapedOreRecipe(new ItemStack(Tools.swordDUranium, 1), new Object[] { "x", "y", 'x', ToolHeads.swordHeadDUranium, 'y', "stickWood" }));
 		CraftingManager.getInstance().getRecipeList().add(new ShapedOreRecipe(new ItemStack(Tools.swordDCarbide, 1), new Object[] { "x", "y", 'x', ToolHeads.swordHeadDCarbide, 'y', "stickWood" }));
 
-		CraftingManager.getInstance().getRecipeList().add(new ShapedOreRecipe(new ItemStack(Item.swordSteel, 1), new Object[] { "x", "y", 'x', ToolHeads.swordHeadIron, 'y', "stickWood" }));
+		CraftingManager.getInstance().getRecipeList().add(new ShapedOreRecipe(new ItemStack(Item.swordIron, 1), new Object[] { "x", "y", 'x', ToolHeads.swordHeadIron, 'y', "stickWood" }));
 		CraftingManager.getInstance().getRecipeList().add(new ShapedOreRecipe(new ItemStack(Item.swordGold, 1), new Object[] { "x", "y", 'x', ToolHeads.swordHeadGold, 'y', "stickWood" }));
 
 	}

@@ -30,7 +30,6 @@ public class HeadsAxe extends Item {
 		this.setCreativeTab(CivCraftBase.tabsMisc);
 	}
 
-	@Override
 	@SideOnly(Side.CLIENT)
 	public void updateIcons(IconRegister iconRegistry) {
 		textures = new Icon[10];

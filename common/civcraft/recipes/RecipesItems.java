@@ -34,7 +34,7 @@ public class RecipesItems {
 		CraftingManager.getInstance().getRecipeList().add(new ShapedOreRecipe(Items.heatingCoil, new Object[] { "xyx", "y y", "xyx", 'x', "ingotCopper", 'y', "ingotLead" }));
 		CraftingManager.getInstance().getRecipeList().add(new ShapedOreRecipe(Items.heatingCoil, new Object[] { "xyx", "y y", "xyx", 'y', "ingotCopper", 'x', "ingotLead" }));
 
-		CraftingManager.getInstance().getRecipeList().add(new ShapelessOreRecipe(Items.kevlar, Item.field_94583_ca, "dustSulfur", "dustSulfur", "plastic", "plastic"));
+		CraftingManager.getInstance().getRecipeList().add(new ShapelessOreRecipe(Items.kevlar, Item.netherQuartz, "dustSulfur", "dustSulfur", "plastic", "plastic"));
 		CraftingManager.getInstance().getRecipeList().add(new ShapedOreRecipe(Items.handle, new Object[] { "x", "x", 'x', "stickWood" }));
 
 		// Computer
