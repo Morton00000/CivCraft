@@ -35,15 +35,15 @@ public class ItemMisc extends Item {
 	public void updateIcons(IconRegister iconRegistry) {
 		textures = new Icon[9];
 
-		textures[0] = iconRegistry.registerIcon("CivCraft:computer_chip");
-		textures[1] = iconRegistry.registerIcon("CivCraft:computer_wire");
-		textures[2] = iconRegistry.registerIcon("CivCraft:computer_mboard");
-		textures[3] = iconRegistry.registerIcon("CivCraft:computer_hdrive");
-		textures[4] = iconRegistry.registerIcon("CivCraft:computer_ram");
-		textures[5] = iconRegistry.registerIcon("CivCraft:misc_bellows");
-		textures[6] = iconRegistry.registerIcon("CivCraft:misc_heatingCoil");
-		textures[7] = iconRegistry.registerIcon("CivCraft:misc_kevlar");
-		textures[8] = iconRegistry.registerIcon("CivCraft:misc_handle");
+		textures[0] = iconRegistry.registerIcon("/mods/CivCraft/textures/items/misc/computer_chip.png");
+		textures[1] = iconRegistry.registerIcon("/mods/CivCraft/textures/items/misc/computer_wire.png");
+		textures[2] = iconRegistry.registerIcon("/mods/CivCraft/textures/items/misc/computer_mboard.png");
+		textures[3] = iconRegistry.registerIcon("/mods/CivCraft/textures/items/misc/computer_hdrive.png");
+		textures[4] = iconRegistry.registerIcon("/mods/CivCraft/textures/items/misc/computer_ram.png");
+		textures[5] = iconRegistry.registerIcon("/mods/CivCraft/textures/items/misc/misc_bellows.png");
+		textures[6] = iconRegistry.registerIcon("/mods/CivCraft/textures/items/misc/misc_heatingCoil.png");
+		textures[7] = iconRegistry.registerIcon("/mods/CivCraft/textures/items/misc/misc_kevlar.png");
+		textures[8] = iconRegistry.registerIcon("/mods/CivCraft/textures/items/misc/misc_handle.png");
 	}
 
 	@Override

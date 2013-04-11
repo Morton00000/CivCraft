@@ -35,16 +35,16 @@ public class HeadsAxe extends Item {
 	public void updateIcons(IconRegister iconRegistry) {
 		textures = new Icon[10];
 
-		textures[0] = iconRegistry.registerIcon("CivCraft:axeHeadCopper");
-		textures[1] = iconRegistry.registerIcon("CivCraft:axeHeadAluminum");
-		textures[2] = iconRegistry.registerIcon("CivCraft:axeHeadTitanium");
-		textures[3] = iconRegistry.registerIcon("CivCraft:axeHeadDUranium");
-		textures[4] = iconRegistry.registerIcon("CivCraft:axeHeadBronze");
-		textures[5] = iconRegistry.registerIcon("CivCraft:axeHeadSteel");
-		textures[6] = iconRegistry.registerIcon("CivCraft:axeHeadCarbide");
-		textures[7] = iconRegistry.registerIcon("CivCraft:axeHeadDCarbide");
-		textures[8] = iconRegistry.registerIcon("CivCraft:axeHeadIron");
-		textures[9] = iconRegistry.registerIcon("CivCraft:axeHeadGold");
+		textures[0] = iconRegistry.registerIcon("/mods/CivCraft/textures/items/toolheads/axeHeadCopper.png");
+		textures[1] = iconRegistry.registerIcon("/mods/CivCraft/textures/items/toolheads/axeHeadAluminum.png");
+		textures[2] = iconRegistry.registerIcon("/mods/CivCraft/textures/items/toolheads/axeHeadTitanium.png");
+		textures[3] = iconRegistry.registerIcon("/mods/CivCraft/textures/items/toolheads/axeHeadDUranium.png");
+		textures[4] = iconRegistry.registerIcon("/mods/CivCraft/textures/items/toolheads/axeHeadBronze.png");
+		textures[5] = iconRegistry.registerIcon("/mods/CivCraft/textures/items/toolheads/axeHeadSteel.png");
+		textures[6] = iconRegistry.registerIcon("/mods/CivCraft/textures/items/toolheads/axeHeadCarbide.png");
+		textures[7] = iconRegistry.registerIcon("/mods/CivCraft/textures/items/toolheads/axeHeadDCarbide.png");
+		textures[8] = iconRegistry.registerIcon("/mods/CivCraft/textures/items/toolheads/axeHeadIron.png");
+		textures[9] = iconRegistry.registerIcon("/mods/CivCraft/textures/items/toolheads/axeHeadGold.png");
 	}
 
 	@Override

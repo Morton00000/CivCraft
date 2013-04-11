@@ -35,16 +35,16 @@ public class HeadsHoe extends Item {
 	public void updateIcons(IconRegister iconRegistry) {
 		textures = new Icon[10];
 
-		textures[0] = iconRegistry.registerIcon("CivCraft:hoeHeadCopper");
-		textures[1] = iconRegistry.registerIcon("CivCraft:hoeHeadAluminum");
-		textures[2] = iconRegistry.registerIcon("CivCraft:hoeHeadTitanium");
-		textures[3] = iconRegistry.registerIcon("CivCraft:hoeHeadDUranium");
-		textures[4] = iconRegistry.registerIcon("CivCraft:hoeHeadBronze");
-		textures[5] = iconRegistry.registerIcon("CivCraft:hoeHeadSteel");
-		textures[6] = iconRegistry.registerIcon("CivCraft:hoeHeadCarbide");
-		textures[7] = iconRegistry.registerIcon("CivCraft:hoeHeadDCarbide");
-		textures[8] = iconRegistry.registerIcon("CivCraft:hoeHeadIron");
-		textures[9] = iconRegistry.registerIcon("CivCraft:hoeHeadGold");
+		textures[0] = iconRegistry.registerIcon("/mods/CivCraft/textures/items/toolheads/hoeHeadCopper.png");
+		textures[1] = iconRegistry.registerIcon("/mods/CivCraft/textures/items/toolheads/hoeHeadAluminum.png");
+		textures[2] = iconRegistry.registerIcon("/mods/CivCraft/textures/items/toolheads/hoeHeadTitanium.png");
+		textures[3] = iconRegistry.registerIcon("/mods/CivCraft/textures/items/toolheads/hoeHeadDUranium.png");
+		textures[4] = iconRegistry.registerIcon("/mods/CivCraft/textures/items/toolheads/hoeHeadBronze.png");
+		textures[5] = iconRegistry.registerIcon("/mods/CivCraft/textures/items/toolheads/hoeHeadSteel.png");
+		textures[6] = iconRegistry.registerIcon("/mods/CivCraft/textures/items/toolheads/hoeHeadCarbide.png");
+		textures[7] = iconRegistry.registerIcon("/mods/CivCraft/textures/items/toolheads/hoeHeadDCarbide.png");
+		textures[8] = iconRegistry.registerIcon("/mods/CivCraft/textures/items/toolheads/hoeHeadIron.png");
+		textures[9] = iconRegistry.registerIcon("/mods/CivCraft/textures/items/toolheads/hoeHeadGold.png");
 	}
 
 	@Override

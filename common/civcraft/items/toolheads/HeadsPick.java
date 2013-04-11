@@ -35,16 +35,16 @@ public class HeadsPick extends Item {
 	public void updateIcons(IconRegister iconRegistry) {
 		textures = new Icon[10];
 
-		textures[0] = iconRegistry.registerIcon("CivCraft:pickHeadCopper");
-		textures[1] = iconRegistry.registerIcon("CivCraft:pickHeadAluminum");
-		textures[2] = iconRegistry.registerIcon("CivCraft:pickHeadTitanium");
-		textures[3] = iconRegistry.registerIcon("CivCraft:pickHeadDUranium");
-		textures[4] = iconRegistry.registerIcon("CivCraft:pickHeadBronze");
-		textures[5] = iconRegistry.registerIcon("CivCraft:pickHeadSteel");
-		textures[6] = iconRegistry.registerIcon("CivCraft:pickHeadCarbide");
-		textures[7] = iconRegistry.registerIcon("CivCraft:pickHeadDCarbide");
-		textures[8] = iconRegistry.registerIcon("CivCraft:pickHeadIron");
-		textures[9] = iconRegistry.registerIcon("CivCraft:pickHeadGold");
+		textures[0] = iconRegistry.registerIcon("/mods/CivCraft/textures/items/toolheads/pickHeadCopper.png");
+		textures[1] = iconRegistry.registerIcon("/mods/CivCraft/textures/items/toolheads/pickHeadAluminum.png");
+		textures[2] = iconRegistry.registerIcon("/mods/CivCraft/textures/items/toolheads/pickHeadTitanium.png");
+		textures[3] = iconRegistry.registerIcon("/mods/CivCraft/textures/items/toolheads/pickHeadDUranium.png");
+		textures[4] = iconRegistry.registerIcon("/mods/CivCraft/textures/items/toolheads/pickHeadBronze.png");
+		textures[5] = iconRegistry.registerIcon("/mods/CivCraft/textures/items/toolheads/pickHeadSteel.png");
+		textures[6] = iconRegistry.registerIcon("/mods/CivCraft/textures/items/toolheads/pickHeadCarbide.png");
+		textures[7] = iconRegistry.registerIcon("/mods/CivCraft/textures/items/toolheads/pickHeadDCarbide.png");
+		textures[8] = iconRegistry.registerIcon("/mods/CivCraft/textures/items/toolheads/pickHeadIron.png");
+		textures[9] = iconRegistry.registerIcon("/mods/CivCraft/textures/items/toolheads/pickHeadGold.png");
 	}
 
 	@Override

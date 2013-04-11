@@ -20,7 +20,7 @@ public class ItemArmorCC extends ItemArmor implements IArmorTextureProvider {
 	@Override
 	@SideOnly(Side.CLIENT)
 	public void updateIcons(IconRegister iconRegister) {
-		iconIndex = iconRegister.registerIcon("CivCraft" + ":" + this.getUnlocalizedName().substring(this.getUnlocalizedName().indexOf(".") + 1));
+		iconIndex = iconRegister.registerIcon("/mods/CivCraft/textures/items/armor/" + this.getUnlocalizedName().substring(this.getUnlocalizedName().indexOf(".") + 1) + ".png");
 	}
 
 	@Override

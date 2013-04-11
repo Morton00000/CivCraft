@@ -105,9 +105,9 @@ public class BlockComputer extends Block {
 	 * is the only chance you get to register icons.
 	 */
 	public void registerIcons(IconRegister par1IconRegister) {
-		blockIcon = par1IconRegister.registerIcon("CivCraft:computer_side");
-		field_94459_cP = par1IconRegister.registerIcon(powered ? "CivCraft:computer_front_lit" : "CivCraft:computer_front");
-		field_94458_cO = par1IconRegister.registerIcon("CivCraft:computer_top");
+		blockIcon = par1IconRegister.registerIcon("/mods/CivCraft/textures/blocks/machines/computer_side.png");
+		field_94459_cP = par1IconRegister.registerIcon(powered ? "/mods/CivCraft/textures/blocks/machines/computer_front_lit.png" : "/mods/CivCraft/textures/blocks/machines/computer_front.png");
+		field_94458_cO = par1IconRegister.registerIcon("/mods/CivCraft/textures/blocks/machines/computer_top.png");
 	}
 
 	/**

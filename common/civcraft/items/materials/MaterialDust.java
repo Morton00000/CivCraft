@@ -35,25 +35,25 @@ public class MaterialDust extends Item {
 	public void updateIcons(IconRegister iconRegistry) {
 		textures = new Icon[19];
 
-		textures[0] = iconRegistry.registerIcon("CivCraft:dustTin");
-		textures[1] = iconRegistry.registerIcon("CivCraft:dustCopper");
-		textures[2] = iconRegistry.registerIcon("CivCraft:dustPlatinum");
-		textures[3] = iconRegistry.registerIcon("CivCraft:dustSilver");
-		textures[4] = iconRegistry.registerIcon("CivCraft:dustAluminum");
-		textures[5] = iconRegistry.registerIcon("CivCraft:dustTitanium");
-		textures[6] = iconRegistry.registerIcon("CivCraft:dustLead");
-		textures[7] = iconRegistry.registerIcon("CivCraft:dustMercury");
-		textures[8] = iconRegistry.registerIcon("CivCraft:dustZinc");
-		textures[9] = iconRegistry.registerIcon("CivCraft:dustTungsten");
-		textures[10] = iconRegistry.registerIcon("CivCraft:dustUranium");
-		textures[11] = iconRegistry.registerIcon("CivCraft:dustBronze");
-		textures[12] = iconRegistry.registerIcon("CivCraft:dustBrass");
-		textures[13] = iconRegistry.registerIcon("CivCraft:dustSteel");
-		textures[14] = iconRegistry.registerIcon("CivCraft:dustCarbide");
-		textures[15] = iconRegistry.registerIcon("CivCraft:dustSilicon");
-		textures[16] = iconRegistry.registerIcon("CivCraft:dustYellowcake");
-		textures[17] = iconRegistry.registerIcon("CivCraft:dustGold");
-		textures[18] = iconRegistry.registerIcon("CivCraft:dustIron");
+		textures[0] = iconRegistry.registerIcon("/mods/CivCraft/textures/items/materials/dustTin.png");
+		textures[1] = iconRegistry.registerIcon("/mods/CivCraft/textures/items/materials/dustCopper.png");
+		textures[2] = iconRegistry.registerIcon("/mods/CivCraft/textures/items/materials/dustPlatinum.png");
+		textures[3] = iconRegistry.registerIcon("/mods/CivCraft/textures/items/materials/dustSilver.png");
+		textures[4] = iconRegistry.registerIcon("/mods/CivCraft/textures/items/materials/dustAluminum.png");
+		textures[5] = iconRegistry.registerIcon("/mods/CivCraft/textures/items/materials/dustTitanium.png");
+		textures[6] = iconRegistry.registerIcon("/mods/CivCraft/textures/items/materials/dustLead.png");
+		textures[7] = iconRegistry.registerIcon("/mods/CivCraft/textures/items/materials/dustMercury.png");
+		textures[8] = iconRegistry.registerIcon("/mods/CivCraft/textures/items/materials/dustZinc.png");
+		textures[9] = iconRegistry.registerIcon("/mods/CivCraft/textures/items/materials/dustTungsten.png");
+		textures[10] = iconRegistry.registerIcon("/mods/CivCraft/textures/items/materials/dustUranium.png");
+		textures[11] = iconRegistry.registerIcon("/mods/CivCraft/textures/items/materials/dustBronze.png");
+		textures[12] = iconRegistry.registerIcon("/mods/CivCraft/textures/items/materials/dustBrass.png");
+		textures[13] = iconRegistry.registerIcon("/mods/CivCraft/textures/items/materials/dustSteel.png");
+		textures[14] = iconRegistry.registerIcon("/mods/CivCraft/textures/items/materials/dustCarbide.png");
+		textures[15] = iconRegistry.registerIcon("/mods/CivCraft/textures/items/materials/dustSilicon.png");
+		textures[16] = iconRegistry.registerIcon("/mods/CivCraft/textures/items/materials/dustYellowcake.png");
+		textures[17] = iconRegistry.registerIcon("/mods/CivCraft/textures/items/materials/dustGold.png");
+		textures[18] = iconRegistry.registerIcon("/mods/CivCraft/textures/items/materials/dustIron.png");
 	}
 
 	@Override
