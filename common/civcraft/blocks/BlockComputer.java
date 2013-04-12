@@ -89,6 +89,7 @@ public class BlockComputer extends Block {
 		}
 	}
 
+	@Override
 	@SideOnly(Side.CLIENT)
 	/**
 	 * From the specified side and block metadata retrieves the blocks texture. Args: side, metadata

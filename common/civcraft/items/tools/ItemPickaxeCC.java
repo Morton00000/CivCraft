@@ -15,8 +15,9 @@ public class ItemPickaxeCC extends ItemPickaxe {
 		// TODO Auto-generated constructor stub
 	}
 
+	@Override
 	@SideOnly(Side.CLIENT)
 	public void updateIcons(IconRegister iconRegister) {
-		itemIcon = iconRegister.registerIcon("/mods/CivCraft/textures/items/tools/" + this.getUnlocalizedName().substring(this.getUnlocalizedName().indexOf(".") + 1) + ".png");
+		iconIndex = iconRegister.registerIcon("/mods/CivCraft/textures/items/tools/" + this.getUnlocalizedName().substring(this.getUnlocalizedName().indexOf(".") + 1) + ".png");
 	}
 }

@@ -17,9 +17,10 @@ public class ItemArmorCC extends ItemArmor implements IArmorTextureProvider {
 		this.setCreativeTab(CivCraftBase.tabsCombat);
 	}
 
+	@Override
 	@SideOnly(Side.CLIENT)
 	public void updateIcons(IconRegister iconRegister) {
-		itemIcon = iconRegister.registerIcon("/mods/CivCraft/textures/items/armor/" + this.getUnlocalizedName().substring(this.getUnlocalizedName().indexOf(".") + 1) + ".png");
+		iconIndex = iconRegister.registerIcon("/mods/CivCraft/textures/items/armor/" + this.getUnlocalizedName().substring(this.getUnlocalizedName().indexOf(".") + 1) + ".png");
 	}
 
 	@Override

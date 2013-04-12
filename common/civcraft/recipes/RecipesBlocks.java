@@ -61,7 +61,7 @@ public class RecipesBlocks {
 		CraftingManager.getInstance().getRecipeList().add(new ShapelessOreRecipe(new ItemStack(Materials.dustGraphite, 9), "blockGraphite"));
 
 		// Machines
-		CraftingManager.getInstance().getRecipeList().add(new ShapedOreRecipe(Machines.furnaceBlastOff, new Object[] { "xcx", "yzy", "bcb", 'x', Block.blockIron, 'y', Items.bellows, 'z', Block.furnaceIdle, 'c', Items.heatingCoil, 'b', Block.brick }));
+		CraftingManager.getInstance().getRecipeList().add(new ShapedOreRecipe(Machines.furnaceBlastOff, new Object[] { "xcx", "yzy", "bcb", 'x', Block.blockSteel, 'y', Items.bellows, 'z', Block.furnaceIdle, 'c', Items.heatingCoil, 'b', Block.brick }));
 		CraftingManager.getInstance().getRecipeList().add(new ShapedOreRecipe(Machines.furnaceIndOff, new Object[] { "xcx", "yzy", "bvb", 'x', "blockSteel", 'y', Items.bellows, 'z', Machines.furnaceBlastOff, 'c', Items.heatingCoil, 'b', Block.brick, 'v', Machines.computerOff }));
 		CraftingManager.getInstance().getRecipeList().add(new ShapedOreRecipe(Machines.furnaceMoldOff, new Object[] { "xxx", "x x", "xxx", 'x', Block.brick }));
 
