@@ -111,9 +111,9 @@ public class Crusher2 extends BlockContainer {
 	@Override
 	@SideOnly(Side.CLIENT)
 	public void registerIcons(IconRegister par1IconRegister) {
-		blockIcon = par1IconRegister.registerIcon("/mods/CivCraft/textures/blocks/machines/crusher2_side.png");
-		field_94459_cP = par1IconRegister.registerIcon(isActive ? "/mods/CivCraft/textures/blocks/machines/crusher2_front_lit.png" : "/mods/CivCraft/textures/blocks/machines/crusher2_front.png");
-		field_94458_cO = par1IconRegister.registerIcon("/mods/CivCraft/textures/blocks/machines/crusher2_top.png");
+		blockIcon = par1IconRegister.registerIcon("CivCraft:crusher2_side");
+		field_94459_cP = par1IconRegister.registerIcon(isActive ? "CivCraft:crusher2_front_lit" : "CivCraft:crusher2_front");
+		field_94458_cO = par1IconRegister.registerIcon("CivCraft:crusher2_top");
 	}
 
 	/**

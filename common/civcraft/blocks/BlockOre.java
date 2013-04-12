@@ -30,17 +30,17 @@ public class BlockOre extends Block {
 	public void registerIcons(IconRegister iconRegistry) {
 		textures = new Icon[11];
 
-		textures[0] = iconRegistry.registerIcon("/mods/CivCraft/textures/blocks/ore/oreTin.png");
-		textures[1] = iconRegistry.registerIcon("/mods/CivCraft/textures/blocks/ore/oreCopper.png");
-		textures[2] = iconRegistry.registerIcon("/mods/CivCraft/textures/blocks/ore/orePlatinum.png");
-		textures[3] = iconRegistry.registerIcon("/mods/CivCraft/textures/blocks/ore/oreSilver.png");
-		textures[4] = iconRegistry.registerIcon("/mods/CivCraft/textures/blocks/ore/oreAluminum.png");
-		textures[5] = iconRegistry.registerIcon("/mods/CivCraft/textures/blocks/ore/oreTitanium.png");
-		textures[6] = iconRegistry.registerIcon("/mods/CivCraft/textures/blocks/ore/oreLead.png");
-		textures[7] = iconRegistry.registerIcon("/mods/CivCraft/textures/blocks/ore/oreMercury.png");
-		textures[8] = iconRegistry.registerIcon("/mods/CivCraft/textures/blocks/ore/oreZinc.png");
-		textures[9] = iconRegistry.registerIcon("/mods/CivCraft/textures/blocks/ore/oreTungsten.png");
-		textures[10] = iconRegistry.registerIcon("/mods/CivCraft/textures/blocks/ore/oreUranium.png");
+		textures[0] = iconRegistry.registerIcon("CivCraft:oreTin");
+		textures[1] = iconRegistry.registerIcon("CivCraft:oreCopper");
+		textures[2] = iconRegistry.registerIcon("CivCraft:orePlatinum");
+		textures[3] = iconRegistry.registerIcon("CivCraft:oreSilver");
+		textures[4] = iconRegistry.registerIcon("CivCraft:oreAluminum");
+		textures[5] = iconRegistry.registerIcon("CivCraft:oreTitanium");
+		textures[6] = iconRegistry.registerIcon("CivCraft:oreLead");
+		textures[7] = iconRegistry.registerIcon("CivCraft:oreMercury");
+		textures[8] = iconRegistry.registerIcon("CivCraft:oreZinc");
+		textures[9] = iconRegistry.registerIcon("CivCraft:oreTungsten");
+		textures[10] = iconRegistry.registerIcon("CivCraft:oreUranium");
 	}
 
 	@Override

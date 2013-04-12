@@ -35,15 +35,15 @@ public class MoldItems extends Item {
 	public void updateIcons(IconRegister iconRegistry) {
 		textures = new Icon[9];
 
-		textures[0] = iconRegistry.registerIcon("/mods/CivCraft/textures/items/molds/moldAxe.png");
-		textures[1] = iconRegistry.registerIcon("/mods/CivCraft/textures/items/molds/moldHoe.png");
-		textures[2] = iconRegistry.registerIcon("/mods/CivCraft/textures/items/molds/moldSpade.png");
-		textures[3] = iconRegistry.registerIcon("/mods/CivCraft/textures/items/molds/moldPickaxe.png");
-		textures[4] = iconRegistry.registerIcon("/mods/CivCraft/textures/items/molds/moldSword.png");
-		textures[5] = iconRegistry.registerIcon("/mods/CivCraft/textures/items/molds/moldHead.png");
-		textures[6] = iconRegistry.registerIcon("/mods/CivCraft/textures/items/molds/moldChest.png");
-		textures[7] = iconRegistry.registerIcon("/mods/CivCraft/textures/items/molds/moldLegs.png");
-		textures[8] = iconRegistry.registerIcon("/mods/CivCraft/textures/items/molds/moldBoots.png");
+		textures[0] = iconRegistry.registerIcon("CivCraft:moldAxe");
+		textures[1] = iconRegistry.registerIcon("CivCraft:moldHoe");
+		textures[2] = iconRegistry.registerIcon("CivCraft:moldSpade");
+		textures[3] = iconRegistry.registerIcon("CivCraft:moldPickaxe");
+		textures[4] = iconRegistry.registerIcon("CivCraft:moldSword");
+		textures[5] = iconRegistry.registerIcon("CivCraft:moldHead");
+		textures[6] = iconRegistry.registerIcon("CivCraft:moldChest");
+		textures[7] = iconRegistry.registerIcon("CivCraft:moldLegs");
+		textures[8] = iconRegistry.registerIcon("CivCraft:moldBoots");
 	}
 
 	@Override

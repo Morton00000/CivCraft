@@ -35,16 +35,16 @@ public class HeadsSword extends Item {
 	public void updateIcons(IconRegister iconRegistry) {
 		textures = new Icon[10];
 
-		textures[0] = iconRegistry.registerIcon("/mods/CivCraft/textures/items/toolheads/swordHeadCopper.png");
-		textures[1] = iconRegistry.registerIcon("/mods/CivCraft/textures/items/toolheads/swordHeadAluminum.png");
-		textures[2] = iconRegistry.registerIcon("/mods/CivCraft/textures/items/toolheads/swordHeadTitanium.png");
-		textures[3] = iconRegistry.registerIcon("/mods/CivCraft/textures/items/toolheads/swordHeadDUranium.png");
-		textures[4] = iconRegistry.registerIcon("/mods/CivCraft/textures/items/toolheads/swordHeadBronze.png");
-		textures[5] = iconRegistry.registerIcon("/mods/CivCraft/textures/items/toolheads/swordHeadSteel.png");
-		textures[6] = iconRegistry.registerIcon("/mods/CivCraft/textures/items/toolheads/swordHeadCarbide.png");
-		textures[7] = iconRegistry.registerIcon("/mods/CivCraft/textures/items/toolheads/swordHeadDCarbide.png");
-		textures[8] = iconRegistry.registerIcon("/mods/CivCraft/textures/items/toolheads/swordHeadIron.png");
-		textures[9] = iconRegistry.registerIcon("/mods/CivCraft/textures/items/toolheads/swordHeadGold.png");
+		textures[0] = iconRegistry.registerIcon("CivCraft:swordHeadCopper");
+		textures[1] = iconRegistry.registerIcon("CivCraft:swordHeadAluminum");
+		textures[2] = iconRegistry.registerIcon("CivCraft:swordHeadTitanium");
+		textures[3] = iconRegistry.registerIcon("CivCraft:swordHeadDUranium");
+		textures[4] = iconRegistry.registerIcon("CivCraft:swordHeadBronze");
+		textures[5] = iconRegistry.registerIcon("CivCraft:swordHeadSteel");
+		textures[6] = iconRegistry.registerIcon("CivCraft:swordHeadCarbide");
+		textures[7] = iconRegistry.registerIcon("CivCraft:swordHeadDCarbide");
+		textures[8] = iconRegistry.registerIcon("CivCraft:swordHeadIron");
+		textures[9] = iconRegistry.registerIcon("CivCraft:swordHeadGold");
 	}
 
 	@Override

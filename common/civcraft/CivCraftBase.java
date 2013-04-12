@@ -43,11 +43,11 @@ import cpw.mods.fml.common.network.NetworkRegistry;
 import cpw.mods.fml.common.registry.GameRegistry;
 import cpw.mods.fml.common.registry.LanguageRegistry;
 
-@Mod(modid = "CivCraft", name = "CivCraft", version = "test-ver 0.6.2")
-@NetworkMod(channels = "CivCraft", clientSideRequired = true, serverSideRequired = false, packetHandler = PacketHandler.class)
+@Mod(modid = "civcraft", name = "CivCraft", version = "test-ver 0.6.2")
+@NetworkMod(channels = "civcraft", clientSideRequired = true, serverSideRequired = false, packetHandler = PacketHandler.class)
 public class CivCraftBase {
 
-	@Instance("CivCraft")
+	@Instance("civcraft")
 	public static CivCraftBase instance = new CivCraftBase();
 
 	@SidedProxy(clientSide = "civcraft.proxy.ClientProxy", serverSide = "civcraft.proxy.CommonProxy")

@@ -111,9 +111,9 @@ public class FurnaceBlast extends BlockContainer {
 	@Override
 	@SideOnly(Side.CLIENT)
 	public void registerIcons(IconRegister par1IconRegister) {
-		blockIcon = par1IconRegister.registerIcon("/mods/CivCraft/textures/blocks/machines/blastfurnace_side.png");
-		field_94459_cP = par1IconRegister.registerIcon(isActive ? "/mods/CivCraft/textures/blocks/machines/blastfurnace_front_lit.png" : "/mods/CivCraft/textures/blocks/machines/blastfurnace_front.png");
-		field_94458_cO = par1IconRegister.registerIcon("/mods/CivCraft/textures/blocks/machines/blastfurnace_top.png");
+		blockIcon = par1IconRegister.registerIcon("CivCraft:blastfurnace_side");
+		field_94459_cP = par1IconRegister.registerIcon(isActive ? "CivCraft:blastfurnace_front_lit" : "CivCraft:blastfurnace_front");
+		field_94458_cO = par1IconRegister.registerIcon("CivCraft:blastfurnace_top");
 	}
 
 	/**

@@ -111,9 +111,9 @@ public class PlasticOven extends BlockContainer {
 	@Override
 	@SideOnly(Side.CLIENT)
 	public void registerIcons(IconRegister par1IconRegister) {
-		blockIcon = par1IconRegister.registerIcon("/mods/CivCraft/textures/blocks/machines/plasticoven_side.png");
-		field_94459_cP = par1IconRegister.registerIcon(isActive ? "/mods/CivCraft/textures/blocks/machines/plasticoven_front_lit.png" : "/mods/CivCraft/textures/blocks/machines/plasticoven_front.png");
-		field_94458_cO = par1IconRegister.registerIcon("/mods/CivCraft/textures/blocks/machines/plasticoven_top.png");
+		blockIcon = par1IconRegister.registerIcon("CivCraft:plasticoven_side");
+		field_94459_cP = par1IconRegister.registerIcon(isActive ? "CivCraft:plasticoven_front_lit" : "CivCraft:plasticoven_front");
+		field_94458_cO = par1IconRegister.registerIcon("CivCraft:plasticoven_top");
 	}
 
 	/**

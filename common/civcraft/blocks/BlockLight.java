@@ -31,9 +31,9 @@ public class BlockLight extends Block {
 	 */
 	public void registerIcons(IconRegister par1IconRegister) {
 		if (powered) {
-			blockIcon = par1IconRegister.registerIcon("/mods/CivCraft/textures/blocks/machines/light_lit.png");
+			blockIcon = par1IconRegister.registerIcon("CivCraft:light_lit");
 		} else {
-			blockIcon = par1IconRegister.registerIcon("/mods/CivCraft/textures/blocks/machines/light.png");
+			blockIcon = par1IconRegister.registerIcon("CivCraft:light");
 		}
 	}
 

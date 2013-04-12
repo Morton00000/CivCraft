@@ -35,22 +35,22 @@ public class MaterialIngot extends Item {
 	public void updateIcons(IconRegister iconRegistry) {
 		textures = new Icon[16];
 
-		textures[0] = iconRegistry.registerIcon("/mods/CivCraft/textures/items/materials/ingotTin.png");
-		textures[1] = iconRegistry.registerIcon("/mods/CivCraft/textures/items/materials/ingotCopper.png");
-		textures[2] = iconRegistry.registerIcon("/mods/CivCraft/textures/items/materials/ingotPlatinum.png");
-		textures[3] = iconRegistry.registerIcon("/mods/CivCraft/textures/items/materials/ingotSilver.png");
-		textures[4] = iconRegistry.registerIcon("/mods/CivCraft/textures/items/materials/ingotAluminum.png");
-		textures[5] = iconRegistry.registerIcon("/mods/CivCraft/textures/items/materials/ingotTitanium.png");
-		textures[6] = iconRegistry.registerIcon("/mods/CivCraft/textures/items/materials/ingotLead.png");
-		textures[7] = iconRegistry.registerIcon("/mods/CivCraft/textures/items/materials/ingotMercury.png");
-		textures[8] = iconRegistry.registerIcon("/mods/CivCraft/textures/items/materials/ingotZinc.png");
-		textures[9] = iconRegistry.registerIcon("/mods/CivCraft/textures/items/materials/ingotTungsten.png");
-		textures[10] = iconRegistry.registerIcon("/mods/CivCraft/textures/items/materials/ingotUranium.png");
-		textures[11] = iconRegistry.registerIcon("/mods/CivCraft/textures/items/materials/ingotBronze.png");
-		textures[12] = iconRegistry.registerIcon("/mods/CivCraft/textures/items/materials/ingotBrass.png");
-		textures[13] = iconRegistry.registerIcon("/mods/CivCraft/textures/items/materials/ingotSteel.png");
-		textures[14] = iconRegistry.registerIcon("/mods/CivCraft/textures/items/materials/ingotCarbide.png");
-		textures[15] = iconRegistry.registerIcon("/mods/CivCraft/textures/items/materials/ingotSilicon.png");
+		textures[0] = iconRegistry.registerIcon("CivCraft:ingotTin");
+		textures[1] = iconRegistry.registerIcon("CivCraft:ingotCopper");
+		textures[2] = iconRegistry.registerIcon("CivCraft:ingotPlatinum");
+		textures[3] = iconRegistry.registerIcon("CivCraft:ingotSilver");
+		textures[4] = iconRegistry.registerIcon("CivCraft:ingotAluminum");
+		textures[5] = iconRegistry.registerIcon("CivCraft:ingotTitanium");
+		textures[6] = iconRegistry.registerIcon("CivCraft:ingotLead");
+		textures[7] = iconRegistry.registerIcon("CivCraft:ingotMercury");
+		textures[8] = iconRegistry.registerIcon("CivCraft:ingotZinc");
+		textures[9] = iconRegistry.registerIcon("CivCraft:ingotTungsten");
+		textures[10] = iconRegistry.registerIcon("CivCraft:ingotUranium");
+		textures[11] = iconRegistry.registerIcon("CivCraft:ingotBronze");
+		textures[12] = iconRegistry.registerIcon("CivCraft:ingotBrass");
+		textures[13] = iconRegistry.registerIcon("CivCraft:ingotSteel");
+		textures[14] = iconRegistry.registerIcon("CivCraft:ingotCarbide");
+		textures[15] = iconRegistry.registerIcon("CivCraft:ingotSilicon");
 	}
 
 	@Override

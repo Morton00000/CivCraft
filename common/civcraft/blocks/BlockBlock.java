@@ -30,22 +30,22 @@ public class BlockBlock extends Block {
 	public void registerIcons(IconRegister iconRegistry) {
 		textures = new Icon[16];
 
-		textures[0] = iconRegistry.registerIcon("/mods/CivCraft/textures/blocks/block/blockTin.png");
-		textures[1] = iconRegistry.registerIcon("/mods/CivCraft/textures/blocks/block/blockCopper.png");
-		textures[2] = iconRegistry.registerIcon("/mods/CivCraft/textures/blocks/block/blockPlatinum.png");
-		textures[3] = iconRegistry.registerIcon("/mods/CivCraft/textures/blocks/block/blockSilver.png");
-		textures[4] = iconRegistry.registerIcon("/mods/CivCraft/textures/blocks/block/blockAluminum.png");
-		textures[5] = iconRegistry.registerIcon("/mods/CivCraft/textures/blocks/block/blockTitanium.png");
-		textures[6] = iconRegistry.registerIcon("/mods/CivCraft/textures/blocks/block/blockLead.png");
-		textures[7] = iconRegistry.registerIcon("/mods/CivCraft/textures/blocks/block/blockMercury.png");
-		textures[8] = iconRegistry.registerIcon("/mods/CivCraft/textures/blocks/block/blockZinc.png");
-		textures[9] = iconRegistry.registerIcon("/mods/CivCraft/textures/blocks/block/blockTungsten.png");
-		textures[10] = iconRegistry.registerIcon("/mods/CivCraft/textures/blocks/block/blockUranium.png");
-		textures[11] = iconRegistry.registerIcon("/mods/CivCraft/textures/blocks/block/blockBronze.png");
-		textures[12] = iconRegistry.registerIcon("/mods/CivCraft/textures/blocks/block/blockBrass.png");
-		textures[13] = iconRegistry.registerIcon("/mods/CivCraft/textures/blocks/block/blockSteel.png");
-		textures[14] = iconRegistry.registerIcon("/mods/CivCraft/textures/blocks/block/blockCarbide.png");
-		textures[15] = iconRegistry.registerIcon("/mods/CivCraft/textures/blocks/block/blockSilicon.png");
+		textures[0] = iconRegistry.registerIcon("CivCraft:blockTin");
+		textures[1] = iconRegistry.registerIcon("CivCraft:blockCopper");
+		textures[2] = iconRegistry.registerIcon("CivCraft:blockPlatinum");
+		textures[3] = iconRegistry.registerIcon("CivCraft:blockSilver");
+		textures[4] = iconRegistry.registerIcon("CivCraft:blockAluminum");
+		textures[5] = iconRegistry.registerIcon("CivCraft:blockTitanium");
+		textures[6] = iconRegistry.registerIcon("CivCraft:blockLead");
+		textures[7] = iconRegistry.registerIcon("CivCraft:blockMercury");
+		textures[8] = iconRegistry.registerIcon("CivCraft:blockZinc");
+		textures[9] = iconRegistry.registerIcon("CivCraft:blockTungsten");
+		textures[10] = iconRegistry.registerIcon("CivCraft:blockUranium");
+		textures[11] = iconRegistry.registerIcon("CivCraft:blockBronze");
+		textures[12] = iconRegistry.registerIcon("CivCraft:blockBrass");
+		textures[13] = iconRegistry.registerIcon("CivCraft:blockSteel");
+		textures[14] = iconRegistry.registerIcon("CivCraft:blockCarbide");
+		textures[15] = iconRegistry.registerIcon("CivCraft:blockSilicon");
 	}
 
 	@Override
