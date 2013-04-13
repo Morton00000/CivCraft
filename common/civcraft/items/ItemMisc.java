@@ -19,8 +19,6 @@ public class ItemMisc extends Item {
 	public static final String[] misc = new String[] { "misc_chip", "misc_wire", "misc_mboard", "misc_hdrive", "misc_ram", "misc_bellows", "misc_heatingCoil", "misc_kevlar", "misc_handle" };
 
 	@SideOnly(Side.CLIENT)
-	private Icon[] field_94594_d;
-	@SideOnly(Side.CLIENT)
 	public static Icon[] textures;
 
 	public ItemMisc(int id) {
@@ -68,14 +66,6 @@ public class ItemMisc extends Item {
 	public void getSubItems(int par1, CreativeTabs par2CreativeTabs, List par3List) {
 		for (int var4 = 0; var4 < 9; ++var4) {
 			par3List.add(new ItemStack(par1, 1, var4));
-		}
-	}
-
-	@SideOnly(Side.CLIENT)
-	public void func_94581_a(IconRegister par1IconRegister) {
-		field_94594_d = new Icon[misc.length];
-		for (int i = 0; i < misc.length; ++i) {
-			field_94594_d[i] = par1IconRegister.registerIcon(misc[i]);
 		}
 	}
 }

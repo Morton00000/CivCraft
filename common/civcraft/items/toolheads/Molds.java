@@ -27,16 +27,16 @@ public class Molds {
 	public static ItemStack moldFeet = new ItemStack(mold, 1, 8);
 
 	// Fired Molds
-	public static Item moldfAxe = new BaseItem(ItemIDs.MOLDF_AXE).setUnlocalizedName("moldfAxe").setMaxDamage(4).setMaxStackSize(2).setCreativeTab(CivCraftBase.tabsMisc);
-	public static Item moldfHoe = new BaseItem(ItemIDs.MOLDF_HOE).setUnlocalizedName("moldfHoe").setMaxDamage(4).setMaxStackSize(2).setCreativeTab(CivCraftBase.tabsMisc);
-	public static Item moldfSpade = new BaseItem(ItemIDs.MOLDF_SPADE).setUnlocalizedName("moldfSpade").setMaxDamage(4).setMaxStackSize(2).setCreativeTab(CivCraftBase.tabsMisc);
-	public static Item moldfPick = new BaseItem(ItemIDs.MOLDF_PICK).setUnlocalizedName("moldfPick").setMaxDamage(4).setMaxStackSize(2).setCreativeTab(CivCraftBase.tabsMisc);
-	public static Item moldfSword = new BaseItem(ItemIDs.MOLDF_SWORD).setUnlocalizedName("moldfSword").setMaxDamage(4).setMaxStackSize(2).setCreativeTab(CivCraftBase.tabsMisc);
+	public static Item moldfAxe = new BaseItem(ItemIDs.MOLDF_AXE).setUnlocalizedName("moldfAxe").setMaxDamage(4).setMaxStackSize(8).setCreativeTab(CivCraftBase.tabsMisc);
+	public static Item moldfHoe = new BaseItem(ItemIDs.MOLDF_HOE).setUnlocalizedName("moldfHoe").setMaxDamage(4).setMaxStackSize(8).setCreativeTab(CivCraftBase.tabsMisc);
+	public static Item moldfSpade = new BaseItem(ItemIDs.MOLDF_SPADE).setUnlocalizedName("moldfSpade").setMaxDamage(4).setMaxStackSize(8).setCreativeTab(CivCraftBase.tabsMisc);
+	public static Item moldfPick = new BaseItem(ItemIDs.MOLDF_PICK).setUnlocalizedName("moldfPick").setMaxDamage(4).setMaxStackSize(8).setCreativeTab(CivCraftBase.tabsMisc);
+	public static Item moldfSword = new BaseItem(ItemIDs.MOLDF_SWORD).setUnlocalizedName("moldfSword").setMaxDamage(4).setMaxStackSize(8).setCreativeTab(CivCraftBase.tabsMisc);
 
-	public static Item moldfHead = new BaseItem(ItemIDs.MOLDF_HEAD).setUnlocalizedName("moldfHead").setMaxDamage(4).setMaxStackSize(2).setCreativeTab(CivCraftBase.tabsMisc);
-	public static Item moldfChest = new BaseItem(ItemIDs.MOLDF_CHEST).setUnlocalizedName("moldfChest").setMaxDamage(4).setMaxStackSize(2).setCreativeTab(CivCraftBase.tabsMisc);
-	public static Item moldfLegs = new BaseItem(ItemIDs.MOLDF_LEGS).setUnlocalizedName("moldfLegs").setMaxDamage(4).setMaxStackSize(2).setCreativeTab(CivCraftBase.tabsMisc);
-	public static Item moldfFeet = new BaseItem(ItemIDs.MOLDF_FEET).setUnlocalizedName("moldfFeet").setMaxDamage(4).setMaxStackSize(2).setCreativeTab(CivCraftBase.tabsMisc);
+	public static Item moldfHead = new BaseItem(ItemIDs.MOLDF_HEAD).setUnlocalizedName("moldfHead").setMaxDamage(4).setMaxStackSize(8).setCreativeTab(CivCraftBase.tabsMisc);
+	public static Item moldfChest = new BaseItem(ItemIDs.MOLDF_CHEST).setUnlocalizedName("moldfChest").setMaxDamage(4).setMaxStackSize(8).setCreativeTab(CivCraftBase.tabsMisc);
+	public static Item moldfLegs = new BaseItem(ItemIDs.MOLDF_LEGS).setUnlocalizedName("moldfLegs").setMaxDamage(4).setMaxStackSize(8).setCreativeTab(CivCraftBase.tabsMisc);
+	public static Item moldfFeet = new BaseItem(ItemIDs.MOLDF_FEET).setUnlocalizedName("moldfFeet").setMaxDamage(4).setMaxStackSize(8).setCreativeTab(CivCraftBase.tabsMisc);
 
 	public static void init() {
 

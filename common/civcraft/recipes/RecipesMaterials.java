@@ -33,7 +33,7 @@ public class RecipesMaterials {
 		CraftingManager.getInstance().getRecipeList().add(new ShapelessOreRecipe(Materials.dustTin, new ItemStack(Tools.hammerStone, 1, -1), "oreTin"));
 		CraftingManager.getInstance().getRecipeList().add(new ShapelessOreRecipe(Materials.dustCopper, new ItemStack(Tools.hammerStone, 1, -1), "oreCopper"));
 		CraftingManager.getInstance().getRecipeList().add(new ShapelessOreRecipe(Materials.dustSilver, new ItemStack(Tools.hammerStone, 1, -1), "oreSilver"));
-		CraftingManager.getInstance().getRecipeList().add(new ShapelessOreRecipe(Materials.dustAluminum, new ItemStack(Tools.hammerStone, 1, -1), "oreAluminum"));
+		CraftingManager.getInstance().getRecipeList().add(new ShapelessOreRecipe(Materials.dustAluminium, new ItemStack(Tools.hammerStone, 1, -1), "oreAluminium"));
 		CraftingManager.getInstance().getRecipeList().add(new ShapelessOreRecipe(Materials.dustMercury, new ItemStack(Tools.hammerStone, 1, -1), "oreMercury"));
 		CraftingManager.getInstance().getRecipeList().add(new ShapelessOreRecipe(Materials.dustZinc, new ItemStack(Tools.hammerStone, 1, -1), "oreZinc"));
 		CraftingManager.getInstance().getRecipeList().add(new ShapelessOreRecipe(Materials.dustUranium, new ItemStack(Tools.hammerStone, 1, -1), "oreUranium"));
@@ -45,7 +45,7 @@ public class RecipesMaterials {
 		CraftingManager.getInstance().getRecipeList().add(new ShapelessOreRecipe(Materials.dustTin, new ItemStack(Tools.hammerStone, 1, -1), "ingotTin"));
 		CraftingManager.getInstance().getRecipeList().add(new ShapelessOreRecipe(Materials.dustCopper, new ItemStack(Tools.hammerStone, 1, -1), "ingotCopper"));
 		CraftingManager.getInstance().getRecipeList().add(new ShapelessOreRecipe(Materials.dustSilver, new ItemStack(Tools.hammerStone, 1, -1), "ingotSilver"));
-		CraftingManager.getInstance().getRecipeList().add(new ShapelessOreRecipe(Materials.dustAluminum, new ItemStack(Tools.hammerStone, 1, -1), "ingotAluminum"));
+		CraftingManager.getInstance().getRecipeList().add(new ShapelessOreRecipe(Materials.dustAluminium, new ItemStack(Tools.hammerStone, 1, -1), "ingotAluminium"));
 		CraftingManager.getInstance().getRecipeList().add(new ShapelessOreRecipe(Materials.dustZinc, new ItemStack(Tools.hammerStone, 1, -1), "ingotZinc"));
 		CraftingManager.getInstance().getRecipeList().add(new ShapelessOreRecipe(Materials.dustGold, new ItemStack(Tools.hammerStone, 1, -1), Item.ingotGold));
 		CraftingManager.getInstance().getRecipeList().add(new ShapelessOreRecipe(Materials.dustBrass, new ItemStack(Tools.hammerStone, 1, -1), "ingotBrass"));
@@ -57,7 +57,7 @@ public class RecipesMaterials {
 		CraftingManager.getInstance().getRecipeList().add(new ShapelessOreRecipe(Materials.dustCopper, new ItemStack(Tools.hammerIron, 1, -1), "oreCopper"));
 		CraftingManager.getInstance().getRecipeList().add(new ShapelessOreRecipe(Materials.dustPlatinum, new ItemStack(Tools.hammerIron, 1, -1), "orePlatinum"));
 		CraftingManager.getInstance().getRecipeList().add(new ShapelessOreRecipe(Materials.dustSilver, new ItemStack(Tools.hammerIron, 1, -1), "oreSilver"));
-		CraftingManager.getInstance().getRecipeList().add(new ShapelessOreRecipe(Materials.dustAluminum, new ItemStack(Tools.hammerIron, 1, -1), "oreAluminum"));
+		CraftingManager.getInstance().getRecipeList().add(new ShapelessOreRecipe(Materials.dustAluminium, new ItemStack(Tools.hammerIron, 1, -1), "oreAluminium"));
 		CraftingManager.getInstance().getRecipeList().add(new ShapelessOreRecipe(Materials.dustLead, new ItemStack(Tools.hammerIron, 1, -1), "oreLead"));
 		CraftingManager.getInstance().getRecipeList().add(new ShapelessOreRecipe(Materials.dustMercury, new ItemStack(Tools.hammerIron, 1, -1), "oreMercury"));
 		CraftingManager.getInstance().getRecipeList().add(new ShapelessOreRecipe(Materials.dustZinc, new ItemStack(Tools.hammerIron, 1, -1), "oreZinc"));
@@ -72,7 +72,7 @@ public class RecipesMaterials {
 		CraftingManager.getInstance().getRecipeList().add(new ShapelessOreRecipe(Materials.dustCopper, new ItemStack(Tools.hammerIron, 1, -1), "ingotCopper"));
 		CraftingManager.getInstance().getRecipeList().add(new ShapelessOreRecipe(Materials.dustPlatinum, new ItemStack(Tools.hammerIron, 1, -1), "ingotPlatinum"));
 		CraftingManager.getInstance().getRecipeList().add(new ShapelessOreRecipe(Materials.dustSilver, new ItemStack(Tools.hammerIron, 1, -1), "ingotSilver"));
-		CraftingManager.getInstance().getRecipeList().add(new ShapelessOreRecipe(Materials.dustAluminum, new ItemStack(Tools.hammerIron, 1, -1), "ingotAluminum"));
+		CraftingManager.getInstance().getRecipeList().add(new ShapelessOreRecipe(Materials.dustAluminium, new ItemStack(Tools.hammerIron, 1, -1), "ingotAluminium"));
 		CraftingManager.getInstance().getRecipeList().add(new ShapelessOreRecipe(Materials.dustLead, new ItemStack(Tools.hammerIron, 1, -1), "ingotLead"));
 		CraftingManager.getInstance().getRecipeList().add(new ShapelessOreRecipe(Materials.dustZinc, new ItemStack(Tools.hammerIron, 1, -1), "ingotZinc"));
 		CraftingManager.getInstance().getRecipeList().add(new ShapelessOreRecipe(Materials.dustGold, new ItemStack(Tools.hammerIron, 1, -1), Item.ingotGold));
@@ -89,7 +89,7 @@ public class RecipesMaterials {
 		CraftingManager.getInstance().getRecipeList().add(new ShapelessOreRecipe(Materials.dustCopper, new ItemStack(Tools.hammerSteel, 1, -1), "oreCopper"));
 		CraftingManager.getInstance().getRecipeList().add(new ShapelessOreRecipe(Materials.dustPlatinum, new ItemStack(Tools.hammerSteel, 1, -1), "orePlatinum"));
 		CraftingManager.getInstance().getRecipeList().add(new ShapelessOreRecipe(Materials.dustSilver, new ItemStack(Tools.hammerSteel, 1, -1), "oreSilver"));
-		CraftingManager.getInstance().getRecipeList().add(new ShapelessOreRecipe(Materials.dustAluminum, new ItemStack(Tools.hammerSteel, 1, -1), "oreAluminum"));
+		CraftingManager.getInstance().getRecipeList().add(new ShapelessOreRecipe(Materials.dustAluminium, new ItemStack(Tools.hammerSteel, 1, -1), "oreAluminium"));
 		CraftingManager.getInstance().getRecipeList().add(new ShapelessOreRecipe(Materials.dustTitanium, new ItemStack(Tools.hammerSteel, 1, -1), "oreTitanium"));
 		CraftingManager.getInstance().getRecipeList().add(new ShapelessOreRecipe(Materials.dustLead, new ItemStack(Tools.hammerSteel, 1, -1), "oreLead"));
 		CraftingManager.getInstance().getRecipeList().add(new ShapelessOreRecipe(Materials.dustMercury, new ItemStack(Tools.hammerSteel, 1, -1), "oreMercury"));
@@ -105,7 +105,7 @@ public class RecipesMaterials {
 		CraftingManager.getInstance().getRecipeList().add(new ShapelessOreRecipe(Materials.dustCopper, new ItemStack(Tools.hammerSteel, 1, -1), "ingotCopper"));
 		CraftingManager.getInstance().getRecipeList().add(new ShapelessOreRecipe(Materials.dustPlatinum, new ItemStack(Tools.hammerSteel, 1, -1), "ingotPlatinum"));
 		CraftingManager.getInstance().getRecipeList().add(new ShapelessOreRecipe(Materials.dustSilver, new ItemStack(Tools.hammerSteel, 1, -1), "ingotSilver"));
-		CraftingManager.getInstance().getRecipeList().add(new ShapelessOreRecipe(Materials.dustAluminum, new ItemStack(Tools.hammerSteel, 1, -1), "ingotAluminum"));
+		CraftingManager.getInstance().getRecipeList().add(new ShapelessOreRecipe(Materials.dustAluminium, new ItemStack(Tools.hammerSteel, 1, -1), "ingotAluminium"));
 		CraftingManager.getInstance().getRecipeList().add(new ShapelessOreRecipe(Materials.dustTitanium, new ItemStack(Tools.hammerSteel, 1, -1), "ingotTitanium"));
 		CraftingManager.getInstance().getRecipeList().add(new ShapelessOreRecipe(Materials.dustLead, new ItemStack(Tools.hammerSteel, 1, -1), "ingotLead"));
 		CraftingManager.getInstance().getRecipeList().add(new ShapelessOreRecipe(Materials.dustZinc, new ItemStack(Tools.hammerSteel, 1, -1), "ingotZinc"));
@@ -125,7 +125,7 @@ public class RecipesMaterials {
 		CraftingManager.getInstance().getRecipeList().add(new ShapelessOreRecipe(Materials.dustCopper, new ItemStack(Tools.hammerCarbide, 1, -1), "oreCopper"));
 		CraftingManager.getInstance().getRecipeList().add(new ShapelessOreRecipe(Materials.dustPlatinum, new ItemStack(Tools.hammerCarbide, 1, -1), "orePlatinum"));
 		CraftingManager.getInstance().getRecipeList().add(new ShapelessOreRecipe(Materials.dustSilver, new ItemStack(Tools.hammerCarbide, 1, -1), "oreSilver"));
-		CraftingManager.getInstance().getRecipeList().add(new ShapelessOreRecipe(Materials.dustAluminum, new ItemStack(Tools.hammerCarbide, 1, -1), "oreAluminum"));
+		CraftingManager.getInstance().getRecipeList().add(new ShapelessOreRecipe(Materials.dustAluminium, new ItemStack(Tools.hammerCarbide, 1, -1), "oreAluminium"));
 		CraftingManager.getInstance().getRecipeList().add(new ShapelessOreRecipe(Materials.dustTitanium, new ItemStack(Tools.hammerCarbide, 1, -1), "oreTitanium"));
 		CraftingManager.getInstance().getRecipeList().add(new ShapelessOreRecipe(Materials.dustLead, new ItemStack(Tools.hammerCarbide, 1, -1), "oreLead"));
 		CraftingManager.getInstance().getRecipeList().add(new ShapelessOreRecipe(Materials.dustMercury, new ItemStack(Tools.hammerCarbide, 1, -1), "oreMercury"));
@@ -142,7 +142,7 @@ public class RecipesMaterials {
 		CraftingManager.getInstance().getRecipeList().add(new ShapelessOreRecipe(Materials.dustCopper, new ItemStack(Tools.hammerCarbide, 1, -1), "ingotCopper"));
 		CraftingManager.getInstance().getRecipeList().add(new ShapelessOreRecipe(Materials.dustPlatinum, new ItemStack(Tools.hammerCarbide, 1, -1), "ingotPlatinum"));
 		CraftingManager.getInstance().getRecipeList().add(new ShapelessOreRecipe(Materials.dustSilver, new ItemStack(Tools.hammerCarbide, 1, -1), "ingotSilver"));
-		CraftingManager.getInstance().getRecipeList().add(new ShapelessOreRecipe(Materials.dustAluminum, new ItemStack(Tools.hammerCarbide, 1, -1), "ingotAluminum"));
+		CraftingManager.getInstance().getRecipeList().add(new ShapelessOreRecipe(Materials.dustAluminium, new ItemStack(Tools.hammerCarbide, 1, -1), "ingotAluminium"));
 		CraftingManager.getInstance().getRecipeList().add(new ShapelessOreRecipe(Materials.dustTitanium, new ItemStack(Tools.hammerCarbide, 1, -1), "ingotTitanium"));
 		CraftingManager.getInstance().getRecipeList().add(new ShapelessOreRecipe(Materials.dustLead, new ItemStack(Tools.hammerCarbide, 1, -1), "ingotLead"));
 		CraftingManager.getInstance().getRecipeList().add(new ShapelessOreRecipe(Materials.dustZinc, new ItemStack(Tools.hammerCarbide, 1, -1), "ingotZinc"));
@@ -164,14 +164,14 @@ public class RecipesMaterials {
 		FurnaceRecipes.smelting().addSmelting(Blocks.oreTin.itemID, 0, Materials.ingotTin, 0.7F);
 		FurnaceRecipes.smelting().addSmelting(Blocks.oreCopper.itemID, 1, Materials.ingotCopper, 0.7F);
 		FurnaceRecipes.smelting().addSmelting(Blocks.oreSilver.itemID, 3, Materials.ingotSilver, 1.0F);
-		FurnaceRecipes.smelting().addSmelting(Blocks.oreAluminum.itemID, 4, Materials.ingotAluminum, 0.7F);
+		FurnaceRecipes.smelting().addSmelting(Blocks.oreAluminium.itemID, 4, Materials.ingotAluminium, 0.7F);
 		FurnaceRecipes.smelting().addSmelting(Blocks.oreLead.itemID, 6, Materials.ingotLead, 0.7F);
 		FurnaceRecipes.smelting().addSmelting(Blocks.oreZinc.itemID, 8, Materials.ingotZinc, 0.7F);
 
 		FurnaceRecipes.smelting().addSmelting(Materials.dustTin.itemID, 0, Materials.ingotTin, 0.7F);
 		FurnaceRecipes.smelting().addSmelting(Materials.dustCopper.itemID, 1, Materials.ingotCopper, 0.7F);
 		FurnaceRecipes.smelting().addSmelting(Materials.dustSilver.itemID, 3, Materials.ingotSilver, 1.0F);
-		FurnaceRecipes.smelting().addSmelting(Materials.dustAluminum.itemID, 4, Materials.ingotAluminum, 0.7F);
+		FurnaceRecipes.smelting().addSmelting(Materials.dustAluminium.itemID, 4, Materials.ingotAluminium, 0.7F);
 		FurnaceRecipes.smelting().addSmelting(Materials.dustLead.itemID, 6, Materials.ingotLead, 0.7F);
 		FurnaceRecipes.smelting().addSmelting(Materials.dustZinc.itemID, 8, Materials.ingotZinc, 0.7F);
 

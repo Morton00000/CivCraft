@@ -76,11 +76,11 @@ public class ConfigurationHandler {
 			ItemIDs.STEEL_HAMMER = configuration.getItem("hammerSteel", ItemIDs.DEFAULT_STEEL_HAMMER).getInt(ItemIDs.DEFAULT_STEEL_HAMMER);
 			ItemIDs.CARBIDE_HAMMER = configuration.getItem("hammerCarbide", ItemIDs.DEFAULT_CARBIDE_HAMMER).getInt(ItemIDs.DEFAULT_CARBIDE_HAMMER);
 
-			ItemIDs.ALUMINUM_AXE = configuration.getItem("axeAluminum", ItemIDs.DEFAULT_ALUMINUM_AXE).getInt(ItemIDs.DEFAULT_ALUMINUM_AXE);
-			ItemIDs.ALUMINUM_HOE = configuration.getItem("hoeAluminum", ItemIDs.DEFAULT_ALUMINUM_HOE).getInt(ItemIDs.DEFAULT_ALUMINUM_HOE);
-			ItemIDs.ALUMINUM_SPADE = configuration.getItem("spadeAluminum", ItemIDs.DEFAULT_ALUMINUM_SPADE).getInt(ItemIDs.DEFAULT_ALUMINUM_SPADE);
-			ItemIDs.ALUMINUM_PICKAXE = configuration.getItem("pickaxeAluminum", ItemIDs.DEFAULT_ALUMINUM_PICKAXE).getInt(ItemIDs.DEFAULT_ALUMINUM_PICKAXE);
-			ItemIDs.ALUMINUM_SWORD = configuration.getItem("swordAluminum", ItemIDs.DEFAULT_ALUMINUM_SWORD).getInt(ItemIDs.DEFAULT_ALUMINUM_SWORD);
+			ItemIDs.ALUMINIUM_AXE = configuration.getItem("axeAluminum", ItemIDs.DEFAULT_ALUMINIUM_AXE).getInt(ItemIDs.DEFAULT_ALUMINIUM_AXE);
+			ItemIDs.ALUMINIUM_HOE = configuration.getItem("hoeAluminum", ItemIDs.DEFAULT_ALUMINIUM_HOE).getInt(ItemIDs.DEFAULT_ALUMINIUM_HOE);
+			ItemIDs.ALUMINIUM_SPADE = configuration.getItem("spadeAluminum", ItemIDs.DEFAULT_ALUMINIUM_SPADE).getInt(ItemIDs.DEFAULT_ALUMINIUM_SPADE);
+			ItemIDs.ALUMINIUM_PICKAXE = configuration.getItem("pickaxeAluminum", ItemIDs.DEFAULT_ALUMINIUM_PICKAXE).getInt(ItemIDs.DEFAULT_ALUMINIUM_PICKAXE);
+			ItemIDs.ALUMINIUM_SWORD = configuration.getItem("swordAluminum", ItemIDs.DEFAULT_ALUMINIUM_SWORD).getInt(ItemIDs.DEFAULT_ALUMINIUM_SWORD);
 
 			ItemIDs.COPPER_AXE = configuration.getItem("axeCopper", ItemIDs.DEFAULT_COPPER_AXE).getInt(ItemIDs.DEFAULT_COPPER_AXE);
 			ItemIDs.COPPER_HOE = configuration.getItem("hoeCopper", ItemIDs.DEFAULT_COPPER_HOE).getInt(ItemIDs.DEFAULT_COPPER_HOE);
@@ -150,10 +150,15 @@ public class ConfigurationHandler {
 			ItemIDs.CARBIDE_LEGS = configuration.getItem("legsCarbide", ItemIDs.DEFAULT_CARBIDE_LEGS).getInt(ItemIDs.DEFAULT_CARBIDE_LEGS);
 			ItemIDs.CARBIDE_FEET = configuration.getItem("feetCarbide", ItemIDs.DEFAULT_CARBIDE_FEET).getInt(ItemIDs.DEFAULT_CARBIDE_FEET);
 
-			ItemIDs.ALUMINUM_HEAD = configuration.getItem("headAluminum", ItemIDs.DEFAULT_ALUMINUM_HEAD).getInt(ItemIDs.DEFAULT_ALUMINUM_HEAD);
-			ItemIDs.ALUMINUM_CHEST = configuration.getItem("chestAluminum", ItemIDs.DEFAULT_ALUMINUM_CHEST).getInt(ItemIDs.DEFAULT_ALUMINUM_CHEST);
-			ItemIDs.ALUMINUM_LEGS = configuration.getItem("legsAluminum", ItemIDs.DEFAULT_ALUMINUM_LEGS).getInt(ItemIDs.DEFAULT_ALUMINUM_LEGS);
-			ItemIDs.ALUMINUM_FEET = configuration.getItem("feetAluminum", ItemIDs.DEFAULT_ALUMINUM_FEET).getInt(ItemIDs.DEFAULT_ALUMINUM_FEET);
+			ItemIDs.DURANIUM_HEAD = configuration.getItem("headDUranium", ItemIDs.DEFAULT_DURANIUM_HEAD).getInt(ItemIDs.DEFAULT_DURANIUM_HEAD);
+			ItemIDs.DURANIUM_CHEST = configuration.getItem("chestDUranium", ItemIDs.DEFAULT_DURANIUM_CHEST).getInt(ItemIDs.DEFAULT_DURANIUM_CHEST);
+			ItemIDs.DURANIUM_LEGS = configuration.getItem("legsDUranium", ItemIDs.DEFAULT_DURANIUM_LEGS).getInt(ItemIDs.DEFAULT_DURANIUM_LEGS);
+			ItemIDs.DURANIUM_FEET = configuration.getItem("feetDUranium", ItemIDs.DEFAULT_DURANIUM_FEET).getInt(ItemIDs.DEFAULT_DURANIUM_FEET);
+
+			ItemIDs.ALUMINIUM_HEAD = configuration.getItem("headAluminum", ItemIDs.DEFAULT_ALUMINIUM_HEAD).getInt(ItemIDs.DEFAULT_ALUMINIUM_HEAD);
+			ItemIDs.ALUMINIUM_CHEST = configuration.getItem("chestAluminum", ItemIDs.DEFAULT_ALUMINIUM_CHEST).getInt(ItemIDs.DEFAULT_ALUMINIUM_CHEST);
+			ItemIDs.ALUMINIUM_LEGS = configuration.getItem("legsAluminum", ItemIDs.DEFAULT_ALUMINIUM_LEGS).getInt(ItemIDs.DEFAULT_ALUMINIUM_LEGS);
+			ItemIDs.ALUMINIUM_FEET = configuration.getItem("feetAluminum", ItemIDs.DEFAULT_ALUMINIUM_FEET).getInt(ItemIDs.DEFAULT_ALUMINIUM_FEET);
 
 			ItemIDs.KEVLAR_HEAD = configuration.getItem("headKevlar", ItemIDs.DEFAULT_KEVLAR_HEAD).getInt(ItemIDs.DEFAULT_KEVLAR_HEAD);
 			ItemIDs.KEVLAR_CHEST = configuration.getItem("chestKevlar", ItemIDs.DEFAULT_KEVLAR_CHEST).getInt(ItemIDs.DEFAULT_KEVLAR_CHEST);

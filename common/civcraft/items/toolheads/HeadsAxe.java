@@ -14,12 +14,10 @@ import cpw.mods.fml.relauncher.SideOnly;
 
 public class HeadsAxe extends Item {
 
-	public static final String[] axeHeadNames = new String[] { "copper", "aluminum", "titanium", "duranium", "bronze", "steel", "carbide", "dcarbide", "iron", "gold" };
+	public static final String[] axeHeadNames = new String[] { "copper", "Aluminium", "titanium", "duranium", "bronze", "steel", "carbide", "dcarbide", "iron", "gold" };
 
-	public static final String[] axeHead = new String[] { "copper", "aluminum", "titanium", "duranium", "bronze", "steel", "carbide", "dcarbide", "iron", "gold" };
+	public static final String[] axeHead = new String[] { "copper", "Aluminium", "titanium", "duranium", "bronze", "steel", "carbide", "dcarbide", "iron", "gold" };
 
-	@SideOnly(Side.CLIENT)
-	private Icon[] field_94594_d;
 	@SideOnly(Side.CLIENT)
 	public static Icon[] textures;
 
@@ -28,6 +26,7 @@ public class HeadsAxe extends Item {
 		this.setHasSubtypes(true);
 		this.setUnlocalizedName("axeHead");
 		this.setCreativeTab(CivCraftBase.tabsMisc);
+		this.setMaxStackSize(4);
 	}
 
 	@Override
@@ -36,7 +35,7 @@ public class HeadsAxe extends Item {
 		textures = new Icon[10];
 
 		textures[0] = iconRegistry.registerIcon("CivCraft:axeHeadCopper");
-		textures[1] = iconRegistry.registerIcon("CivCraft:axeHeadAluminum");
+		textures[1] = iconRegistry.registerIcon("CivCraft:axeHeadAluminium");
 		textures[2] = iconRegistry.registerIcon("CivCraft:axeHeadTitanium");
 		textures[3] = iconRegistry.registerIcon("CivCraft:axeHeadDUranium");
 		textures[4] = iconRegistry.registerIcon("CivCraft:axeHeadBronze");
@@ -69,14 +68,6 @@ public class HeadsAxe extends Item {
 	public void getSubItems(int par1, CreativeTabs par2CreativeTabs, List par3List) {
 		for (int var4 = 0; var4 < 10; ++var4) {
 			par3List.add(new ItemStack(par1, 1, var4));
-		}
-	}
-
-	@SideOnly(Side.CLIENT)
-	public void func_94581_a(IconRegister par1IconRegister) {
-		field_94594_d = new Icon[axeHead.length];
-		for (int i = 0; i < axeHead.length; ++i) {
-			field_94594_d[i] = par1IconRegister.registerIcon(axeHead[i]);
 		}
 	}
 }

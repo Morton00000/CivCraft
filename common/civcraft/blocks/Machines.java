@@ -43,8 +43,7 @@ public class Machines {
 
 	public static void init() {
 
-		// *Names*
-		// Off
+		// Names
 		GameRegistry.registerBlock(furnaceBlastOff, "furnaceBlastOff");
 		LanguageRegistry.addName(furnaceBlastOff, "Blast Furnace");
 
@@ -69,29 +68,5 @@ public class Machines {
 		GameRegistry.registerBlock(lightOff, "lightOff");
 		LanguageRegistry.addName(lightOff, "Light");
 
-		// On
-		GameRegistry.registerBlock(furnaceBlastOn, "furnaceBlastOn");
-		LanguageRegistry.addName(furnaceBlastOn, "Blast Furnace");
-
-		GameRegistry.registerBlock(furnaceIndOn, "furnaceIndOn");
-		LanguageRegistry.addName(furnaceIndOn, "Industrial Furnace");
-
-		GameRegistry.registerBlock(furnaceMoldOn, "furnaceMoldOn");
-		LanguageRegistry.addName(furnaceMoldOn, "Mold Furnace");
-
-		GameRegistry.registerBlock(plasticOvenOn, "plasticOvenOn");
-		LanguageRegistry.addName(plasticOvenOn, "Easy Bake Oven");
-
-		GameRegistry.registerBlock(crusher1On, "crusher1On");
-		LanguageRegistry.addName(crusher1On, "Crusher mk1");
-
-		GameRegistry.registerBlock(crusher2On, "crusher2On");
-		LanguageRegistry.addName(crusher2On, "Crusher mk2");
-
-		GameRegistry.registerBlock(computerOn, "computerOn");
-		LanguageRegistry.addName(computerOn, "Computer");
-
-		GameRegistry.registerBlock(lightOn, "lightOn");
-		LanguageRegistry.addName(lightOn, "Light");
 	}
 }

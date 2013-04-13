@@ -14,12 +14,10 @@ import cpw.mods.fml.relauncher.SideOnly;
 
 public class MaterialDust extends Item {
 
-	public static final String[] dustNames = new String[] { "tin", "copper", "platinum", "silver", "aluminum", "titanium", "lead", "mercury", "zinc", "tungsten", "uranium", "bronze", "brass", "steel", "carbide", "silicon", "yellowcake", "gold", "iron" };
+	public static final String[] dustNames = new String[] { "tin", "copper", "platinum", "silver", "aluminium", "titanium", "lead", "mercury", "zinc", "tungsten", "uranium", "bronze", "brass", "steel", "carbide", "silicon", "yellowcake", "gold", "iron" };
 
-	public static final String[] dust = new String[] { "dust_tin", "dust_copper", "dust_platinum", "dust_silver", "dust_aluminum", "dust_titanium", "dust_lead", "dust_mercury", "dust_zinc", "dust_tungsten", "dust_uranium", "dust_bronze", "dust_brass", "dust_steel", "dust_carbide", "dust_silicon", "dust_yellowcake", "dust_gold", "dust_iron" };
+	public static final String[] dust = new String[] { "dust_tin", "dust_copper", "dust_platinum", "dust_silver", "dust_aluminium", "dust_titanium", "dust_lead", "dust_mercury", "dust_zinc", "dust_tungsten", "dust_uranium", "dust_bronze", "dust_brass", "dust_steel", "dust_carbide", "dust_silicon", "dust_yellowcake", "dust_gold", "dust_iron" };
 
-	@SideOnly(Side.CLIENT)
-	private Icon[] field_94594_d;
 	@SideOnly(Side.CLIENT)
 	public static Icon[] textures;
 
@@ -39,7 +37,7 @@ public class MaterialDust extends Item {
 		textures[1] = iconRegistry.registerIcon("CivCraft:dustCopper");
 		textures[2] = iconRegistry.registerIcon("CivCraft:dustPlatinum");
 		textures[3] = iconRegistry.registerIcon("CivCraft:dustSilver");
-		textures[4] = iconRegistry.registerIcon("CivCraft:dustAluminum");
+		textures[4] = iconRegistry.registerIcon("CivCraft:dustAluminium");
 		textures[5] = iconRegistry.registerIcon("CivCraft:dustTitanium");
 		textures[6] = iconRegistry.registerIcon("CivCraft:dustLead");
 		textures[7] = iconRegistry.registerIcon("CivCraft:dustMercury");
@@ -78,14 +76,6 @@ public class MaterialDust extends Item {
 	public void getSubItems(int par1, CreativeTabs par2CreativeTabs, List par3List) {
 		for (int var4 = 0; var4 < 19; ++var4) {
 			par3List.add(new ItemStack(par1, 1, var4));
-		}
-	}
-
-	@SideOnly(Side.CLIENT)
-	public void func_94581_a(IconRegister par1IconRegister) {
-		field_94594_d = new Icon[dust.length];
-		for (int i = 0; i < dust.length; ++i) {
-			field_94594_d[i] = par1IconRegister.registerIcon(dust[i]);
 		}
 	}
 }

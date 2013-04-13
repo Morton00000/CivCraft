@@ -21,7 +21,7 @@ public class RecipesBlocks {
 		CraftingManager.getInstance().getRecipeList().add(new ShapedOreRecipe(Blocks.blockCopper, new Object[] { "xxx", "xxx", "xxx", 'x', "ingotCopper" }));
 		CraftingManager.getInstance().getRecipeList().add(new ShapedOreRecipe(Blocks.blockPlatinum, new Object[] { "xxx", "xxx", "xxx", 'x', "ingotPlatinum" }));
 		CraftingManager.getInstance().getRecipeList().add(new ShapedOreRecipe(Blocks.blockSilver, new Object[] { "xxx", "xxx", "xxx", 'x', "ingotSilver" }));
-		CraftingManager.getInstance().getRecipeList().add(new ShapedOreRecipe(Blocks.blockAluminum, new Object[] { "xxx", "xxx", "xxx", 'x', "ingotAluminum" }));
+		CraftingManager.getInstance().getRecipeList().add(new ShapedOreRecipe(Blocks.blockAluminium, new Object[] { "xxx", "xxx", "xxx", 'x', "ingotAluminium" }));
 		CraftingManager.getInstance().getRecipeList().add(new ShapedOreRecipe(Blocks.blockTitanium, new Object[] { "xxx", "xxx", "xxx", 'x', "ingotTitanium" }));
 		CraftingManager.getInstance().getRecipeList().add(new ShapedOreRecipe(Blocks.blockLead, new Object[] { "xxx", "xxx", "xxx", 'x', "ingotLead" }));
 		CraftingManager.getInstance().getRecipeList().add(new ShapedOreRecipe(Blocks.blockMercury, new Object[] { "xxx", "xxx", "xxx", 'x', "ingotMercury" }));
@@ -43,7 +43,7 @@ public class RecipesBlocks {
 		CraftingManager.getInstance().getRecipeList().add(new ShapelessOreRecipe(new ItemStack(Materials.ingot, 9, 1), "blockCopper"));
 		CraftingManager.getInstance().getRecipeList().add(new ShapelessOreRecipe(new ItemStack(Materials.ingot, 9, 2), "blockPlatinum"));
 		CraftingManager.getInstance().getRecipeList().add(new ShapelessOreRecipe(new ItemStack(Materials.ingot, 9, 3), "blockSilver"));
-		CraftingManager.getInstance().getRecipeList().add(new ShapelessOreRecipe(new ItemStack(Materials.ingot, 9, 4), "blockAluminum"));
+		CraftingManager.getInstance().getRecipeList().add(new ShapelessOreRecipe(new ItemStack(Materials.ingot, 9, 4), "blockAluminium"));
 		CraftingManager.getInstance().getRecipeList().add(new ShapelessOreRecipe(new ItemStack(Materials.ingot, 9, 5), "blockTitanium"));
 		CraftingManager.getInstance().getRecipeList().add(new ShapelessOreRecipe(new ItemStack(Materials.ingot, 9, 6), "blockLead"));
 		CraftingManager.getInstance().getRecipeList().add(new ShapelessOreRecipe(new ItemStack(Materials.ingot, 9, 7), "blockMercury"));
@@ -63,7 +63,7 @@ public class RecipesBlocks {
 		// Machines
 		CraftingManager.getInstance().getRecipeList().add(new ShapedOreRecipe(Machines.furnaceBlastOff, new Object[] { "xcx", "yzy", "bcb", 'x', Block.blockSteel, 'y', Items.bellows, 'z', Block.furnaceIdle, 'c', Items.heatingCoil, 'b', Block.brick }));
 		CraftingManager.getInstance().getRecipeList().add(new ShapedOreRecipe(Machines.furnaceIndOff, new Object[] { "xcx", "yzy", "bvb", 'x', "blockSteel", 'y', Items.bellows, 'z', Machines.furnaceBlastOff, 'c', Items.heatingCoil, 'b', Block.brick, 'v', Machines.computerOff }));
-		CraftingManager.getInstance().getRecipeList().add(new ShapedOreRecipe(Machines.furnaceMoldOff, new Object[] { "xxx", "x x", "xxx", 'x', Block.brick }));
+		CraftingManager.getInstance().getRecipeList().add(new ShapedOreRecipe(Machines.furnaceMoldOff, new Object[] { "xxx", "x x", "yyy", 'x', Block.brick, 'y', "ingotBrass" }));
 
 		CraftingManager.getInstance().getRecipeList().add(new ShapedOreRecipe(Machines.plasticOvenOff, new Object[] { "xxx", "x x", "xxx", 'x', "plastic" }));
 

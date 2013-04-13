@@ -41,7 +41,7 @@ public class ItemIDs {
 	public static int DEFAULT_CARBIDE_AXE = 4014;
 	public static int DEFAULT_DURANIUM_AXE = 4015;
 	public static int DEFAULT_DCARBIDE_AXE = 4016;
-	public static int DEFAULT_ALUMINUM_AXE = 4017;
+	public static int DEFAULT_ALUMINIUM_AXE = 4017;
 
 	public static int DEFAULT_COPPER_HOE = 4020;
 	public static int DEFAULT_BRONZE_HOE = 4021;
@@ -50,7 +50,7 @@ public class ItemIDs {
 	public static int DEFAULT_CARBIDE_HOE = 4024;
 	public static int DEFAULT_DURANIUM_HOE = 4025;
 	public static int DEFAULT_DCARBIDE_HOE = 4026;
-	public static int DEFAULT_ALUMINUM_HOE = 4027;
+	public static int DEFAULT_ALUMINIUM_HOE = 4027;
 
 	public static int DEFAULT_COPPER_SPADE = 4030;
 	public static int DEFAULT_BRONZE_SPADE = 4031;
@@ -59,7 +59,7 @@ public class ItemIDs {
 	public static int DEFAULT_CARBIDE_SPADE = 4034;
 	public static int DEFAULT_DURANIUM_SPADE = 4035;
 	public static int DEFAULT_DCARBIDE_SPADE = 4036;
-	public static int DEFAULT_ALUMINUM_SPADE = 4037;
+	public static int DEFAULT_ALUMINIUM_SPADE = 4037;
 
 	public static int DEFAULT_COPPER_PICKAXE = 4040;
 	public static int DEFAULT_BRONZE_PICKAXE = 4041;
@@ -68,7 +68,7 @@ public class ItemIDs {
 	public static int DEFAULT_CARBIDE_PICKAXE = 4044;
 	public static int DEFAULT_DURANIUM_PICKAXE = 4045;
 	public static int DEFAULT_DCARBIDE_PICKAXE = 4046;
-	public static int DEFAULT_ALUMINUM_PICKAXE = 4047;
+	public static int DEFAULT_ALUMINIUM_PICKAXE = 4047;
 
 	public static int DEFAULT_COPPER_SWORD = 4050;
 	public static int DEFAULT_BRONZE_SWORD = 4051;
@@ -77,7 +77,7 @@ public class ItemIDs {
 	public static int DEFAULT_CARBIDE_SWORD = 4054;
 	public static int DEFAULT_DURANIUM_SWORD = 4055;
 	public static int DEFAULT_DCARBIDE_SWORD = 4056;
-	public static int DEFAULT_ALUMINUM_SWORD = 4057;
+	public static int DEFAULT_ALUMINIUM_SWORD = 4057;
 
 	// Armor
 	public static int DEFAULT_COPPER_HEAD = 4100;
@@ -86,7 +86,7 @@ public class ItemIDs {
 	public static int DEFAULT_TITANIUM_HEAD = 4103;
 	public static int DEFAULT_CARBIDE_HEAD = 4104;
 	public static int DEFAULT_DURANIUM_HEAD = 4105;
-	public static int DEFAULT_ALUMINUM_HEAD = 4106;
+	public static int DEFAULT_ALUMINIUM_HEAD = 4106;
 	public static int DEFAULT_KEVLAR_HEAD = 4107;
 
 	public static int DEFAULT_COPPER_CHEST = 4110;
@@ -95,7 +95,7 @@ public class ItemIDs {
 	public static int DEFAULT_TITANIUM_CHEST = 4113;
 	public static int DEFAULT_CARBIDE_CHEST = 4114;
 	public static int DEFAULT_DURANIUM_CHEST = 4115;
-	public static int DEFAULT_ALUMINUM_CHEST = 4116;
+	public static int DEFAULT_ALUMINIUM_CHEST = 4116;
 	public static int DEFAULT_KEVLAR_CHEST = 4117;
 
 	public static int DEFAULT_COPPER_LEGS = 4120;
@@ -104,7 +104,7 @@ public class ItemIDs {
 	public static int DEFAULT_TITANIUM_LEGS = 4123;
 	public static int DEFAULT_CARBIDE_LEGS = 4124;
 	public static int DEFAULT_DURANIUM_LEGS = 4125;
-	public static int DEFAULT_ALUMINUM_LEGS = 4126;
+	public static int DEFAULT_ALUMINIUM_LEGS = 4126;
 	public static int DEFAULT_KEVLAR_LEGS = 4127;
 
 	public static int DEFAULT_COPPER_FEET = 4130;
@@ -113,7 +113,7 @@ public class ItemIDs {
 	public static int DEFAULT_TITANIUM_FEET = 4133;
 	public static int DEFAULT_CARBIDE_FEET = 4134;
 	public static int DEFAULT_DURANIUM_FEET = 4135;
-	public static int DEFAULT_ALUMINUM_FEET = 4136;
+	public static int DEFAULT_ALUMINIUM_FEET = 4136;
 	public static int DEFAULT_KEVLAR_FEET = 4137;
 
 	// Molds
@@ -168,7 +168,7 @@ public class ItemIDs {
 	public static int CARBIDE_AXE;
 	public static int DURANIUM_AXE;
 	public static int DCARBIDE_AXE;
-	public static int ALUMINUM_AXE;
+	public static int ALUMINIUM_AXE;
 
 	public static int COPPER_HOE;
 	public static int BRONZE_HOE;
@@ -177,7 +177,7 @@ public class ItemIDs {
 	public static int CARBIDE_HOE;
 	public static int DURANIUM_HOE;
 	public static int DCARBIDE_HOE;
-	public static int ALUMINUM_HOE;
+	public static int ALUMINIUM_HOE;
 
 	public static int COPPER_SPADE;
 	public static int BRONZE_SPADE;
@@ -186,7 +186,7 @@ public class ItemIDs {
 	public static int CARBIDE_SPADE;
 	public static int DURANIUM_SPADE;
 	public static int DCARBIDE_SPADE;
-	public static int ALUMINUM_SPADE;
+	public static int ALUMINIUM_SPADE;
 
 	public static int COPPER_PICKAXE;
 	public static int BRONZE_PICKAXE;
@@ -195,7 +195,7 @@ public class ItemIDs {
 	public static int CARBIDE_PICKAXE;
 	public static int DURANIUM_PICKAXE;
 	public static int DCARBIDE_PICKAXE;
-	public static int ALUMINUM_PICKAXE;
+	public static int ALUMINIUM_PICKAXE;
 
 	public static int COPPER_SWORD;
 	public static int BRONZE_SWORD;
@@ -204,7 +204,7 @@ public class ItemIDs {
 	public static int CARBIDE_SWORD;
 	public static int DURANIUM_SWORD;
 	public static int DCARBIDE_SWORD;
-	public static int ALUMINUM_SWORD;
+	public static int ALUMINIUM_SWORD;
 
 	// Armor
 	public static int COPPER_HEAD;
@@ -213,7 +213,7 @@ public class ItemIDs {
 	public static int TITANIUM_HEAD;
 	public static int CARBIDE_HEAD;
 	public static int DURANIUM_HEAD;
-	public static int ALUMINUM_HEAD;
+	public static int ALUMINIUM_HEAD;
 	public static int KEVLAR_HEAD;
 
 	public static int COPPER_CHEST;
@@ -222,7 +222,7 @@ public class ItemIDs {
 	public static int TITANIUM_CHEST;
 	public static int CARBIDE_CHEST;
 	public static int DURANIUM_CHEST;
-	public static int ALUMINUM_CHEST;
+	public static int ALUMINIUM_CHEST;
 	public static int KEVLAR_CHEST;
 
 	public static int COPPER_LEGS;
@@ -231,7 +231,7 @@ public class ItemIDs {
 	public static int TITANIUM_LEGS;
 	public static int CARBIDE_LEGS;
 	public static int DURANIUM_LEGS;
-	public static int ALUMINUM_LEGS;
+	public static int ALUMINIUM_LEGS;
 	public static int KEVLAR_LEGS;
 
 	public static int COPPER_FEET;
@@ -240,7 +240,7 @@ public class ItemIDs {
 	public static int TITANIUM_FEET;
 	public static int CARBIDE_FEET;
 	public static int DURANIUM_FEET;
-	public static int ALUMINUM_FEET;
+	public static int ALUMINIUM_FEET;
 	public static int KEVLAR_FEET;
 
 	// Molds
@@ -261,5 +261,5 @@ public class ItemIDs {
 	public static int HEAD_HOE;
 	public static int HEAD_SPADE;
 	public static int HEAD_PICK;
-	public static int HEAD_SWORD = 4214;
+	public static int HEAD_SWORD;
 }

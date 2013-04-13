@@ -6,7 +6,7 @@ import net.minecraftforge.common.EnumHelper;
 public class ArmorEnum {
 
 	// Used
-	public static EnumArmorMaterial armorALUMINUM = EnumHelper.addArmorMaterial("ALUMINUM", 5, new int[] { 1, 3, 2, 1 }, 18);
+	public static EnumArmorMaterial armorALUMINIUM = EnumHelper.addArmorMaterial("ALUMINIUM", 5, new int[] { 1, 3, 2, 1 }, 18);
 	public static EnumArmorMaterial armorCOPPER = EnumHelper.addArmorMaterial("COPPER", 8, new int[] { 2, 3, 2, 2 }, 10);
 	public static EnumArmorMaterial armorBRONZE = EnumHelper.addArmorMaterial("BRONZE", 16, new int[] { 2, 7, 5, 2 }, 14);
 	public static EnumArmorMaterial armorDURANIUM = EnumHelper.addArmorMaterial("DURANIUM", 18, new int[] { 2, 5, 4, 2 }, 22);

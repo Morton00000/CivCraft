@@ -14,12 +14,10 @@ import cpw.mods.fml.relauncher.SideOnly;
 
 public class HeadsPick extends Item {
 
-	public static final String[] pickHeadNames = new String[] { "copper", "aluminum", "titanium", "duranium", "bronze", "steel", "carbide", "dcarbide", "iron", "gold" };
+	public static final String[] pickHeadNames = new String[] { "copper", "Aluminium", "titanium", "duranium", "bronze", "steel", "carbide", "dcarbide", "iron", "gold" };
 
-	public static final String[] pickHead = new String[] { "copper", "aluminum", "titanium", "duranium", "bronze", "steel", "carbide", "dcarbide", "iron", "gold" };
+	public static final String[] pickHead = new String[] { "copper", "Aluminium", "titanium", "duranium", "bronze", "steel", "carbide", "dcarbide", "iron", "gold" };
 
-	@SideOnly(Side.CLIENT)
-	private Icon[] field_94594_d;
 	@SideOnly(Side.CLIENT)
 	public static Icon[] textures;
 
@@ -28,6 +26,7 @@ public class HeadsPick extends Item {
 		this.setHasSubtypes(true);
 		this.setUnlocalizedName("pickHead");
 		this.setCreativeTab(CivCraftBase.tabsMisc);
+		this.setMaxStackSize(4);
 	}
 
 	@Override
@@ -36,7 +35,7 @@ public class HeadsPick extends Item {
 		textures = new Icon[10];
 
 		textures[0] = iconRegistry.registerIcon("CivCraft:pickHeadCopper");
-		textures[1] = iconRegistry.registerIcon("CivCraft:pickHeadAluminum");
+		textures[1] = iconRegistry.registerIcon("CivCraft:pickHeadAluminium");
 		textures[2] = iconRegistry.registerIcon("CivCraft:pickHeadTitanium");
 		textures[3] = iconRegistry.registerIcon("CivCraft:pickHeadDUranium");
 		textures[4] = iconRegistry.registerIcon("CivCraft:pickHeadBronze");
@@ -69,14 +68,6 @@ public class HeadsPick extends Item {
 	public void getSubItems(int par1, CreativeTabs par2CreativeTabs, List par3List) {
 		for (int var4 = 0; var4 < 10; ++var4) {
 			par3List.add(new ItemStack(par1, 1, var4));
-		}
-	}
-
-	@SideOnly(Side.CLIENT)
-	public void func_94581_a(IconRegister par1IconRegister) {
-		field_94594_d = new Icon[pickHead.length];
-		for (int i = 0; i < pickHead.length; ++i) {
-			field_94594_d[i] = par1IconRegister.registerIcon(pickHead[i]);
 		}
 	}
 }

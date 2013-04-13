@@ -14,8 +14,6 @@ import cpw.mods.fml.relauncher.SideOnly;
 public class BlockOre extends Block {
 
 	@SideOnly(Side.CLIENT)
-	private Icon[] field_94349_a;
-	@SideOnly(Side.CLIENT)
 	public static Icon[] textures;
 
 	public BlockOre(int id) {
@@ -34,7 +32,7 @@ public class BlockOre extends Block {
 		textures[1] = iconRegistry.registerIcon("CivCraft:oreCopper");
 		textures[2] = iconRegistry.registerIcon("CivCraft:orePlatinum");
 		textures[3] = iconRegistry.registerIcon("CivCraft:oreSilver");
-		textures[4] = iconRegistry.registerIcon("CivCraft:oreAluminum");
+		textures[4] = iconRegistry.registerIcon("CivCraft:oreAluminium");
 		textures[5] = iconRegistry.registerIcon("CivCraft:oreTitanium");
 		textures[6] = iconRegistry.registerIcon("CivCraft:oreLead");
 		textures[7] = iconRegistry.registerIcon("CivCraft:oreMercury");
@@ -62,14 +60,6 @@ public class BlockOre extends Block {
 	public void getSubBlocks(int par1, CivCraftBase par2CreativeTabs, List par3List) {
 		for (int j = 0; j < 11; ++j) {
 			par3List.add(new ItemStack(par1, 1, j));
-		}
-	}
-
-	@SideOnly(Side.CLIENT)
-	public void func_94332_a(IconRegister par1IconRegister) {
-		field_94349_a = new Icon[11];
-		for (int i = 0; i < field_94349_a.length; ++i) {
-			field_94349_a[i] = par1IconRegister.registerIcon("ore_" + i);
 		}
 	}
 }

@@ -17,7 +17,7 @@ public class Tools {
 	public static Item hammerCarbide = new BaseItem(ItemIDs.CARBIDE_HAMMER).setUnlocalizedName("hammerCarbide").setMaxDamage(1000).setCreativeTab(CivCraftBase.tabsTools);
 
 	// Axes
-	public static Item axeAluminum = new ItemAxeCC(ItemIDs.ALUMINUM_AXE, ToolsEnum.toolALUMINUM).setUnlocalizedName("axeAluminum").setCreativeTab(CivCraftBase.tabsTools);
+	public static Item axeAluminium = new ItemAxeCC(ItemIDs.ALUMINIUM_AXE, ToolsEnum.toolALUMINIUM).setUnlocalizedName("axeAluminium").setCreativeTab(CivCraftBase.tabsTools);
 	public static Item axeCopper = new ItemAxeCC(ItemIDs.COPPER_AXE, ToolsEnum.toolCOPPER).setUnlocalizedName("axeCopper").setCreativeTab(CivCraftBase.tabsTools);
 	public static Item axeBronze = new ItemAxeCC(ItemIDs.BRONZE_AXE, ToolsEnum.toolBRONZE).setUnlocalizedName("axeBronze").setCreativeTab(CivCraftBase.tabsTools);
 	public static Item axeSteel = new ItemAxeCC(ItemIDs.STEEL_AXE, ToolsEnum.toolSTEEL).setUnlocalizedName("axeSteel").setCreativeTab(CivCraftBase.tabsTools);
@@ -27,7 +27,7 @@ public class Tools {
 	public static Item axeDCarbide = new ItemAxeCC(ItemIDs.DCARBIDE_AXE, ToolsEnum.toolDCARBIDE).setUnlocalizedName("axeDCarbide").setCreativeTab(CivCraftBase.tabsTools);
 
 	// Hoes
-	public static Item hoeAluminum = new ItemHoeCC(ItemIDs.ALUMINUM_HOE, ToolsEnum.toolALUMINUM).setUnlocalizedName("hoeAluminum").setCreativeTab(CivCraftBase.tabsTools);
+	public static Item hoeAluminium = new ItemHoeCC(ItemIDs.ALUMINIUM_HOE, ToolsEnum.toolALUMINIUM).setUnlocalizedName("hoeAluminium").setCreativeTab(CivCraftBase.tabsTools);
 	public static Item hoeCopper = new ItemHoeCC(ItemIDs.COPPER_HOE, ToolsEnum.toolCOPPER).setUnlocalizedName("hoeCopper").setCreativeTab(CivCraftBase.tabsTools);
 	public static Item hoeBronze = new ItemHoeCC(ItemIDs.BRONZE_HOE, ToolsEnum.toolBRONZE).setUnlocalizedName("hoeBronze").setCreativeTab(CivCraftBase.tabsTools);
 	public static Item hoeSteel = new ItemHoeCC(ItemIDs.STEEL_HOE, ToolsEnum.toolSTEEL).setUnlocalizedName("hoeSteel").setCreativeTab(CivCraftBase.tabsTools);
@@ -37,7 +37,7 @@ public class Tools {
 	public static Item hoeDCarbide = new ItemHoeCC(ItemIDs.DCARBIDE_HOE, ToolsEnum.toolDCARBIDE).setUnlocalizedName("hoeDCarbide").setCreativeTab(CivCraftBase.tabsTools);
 
 	// Shovels
-	public static Item spadeAluminum = new ItemSpadeCC(ItemIDs.ALUMINUM_SPADE, ToolsEnum.toolALUMINUM).setUnlocalizedName("spadeAluminum").setCreativeTab(CivCraftBase.tabsTools);
+	public static Item spadeAluminium = new ItemSpadeCC(ItemIDs.ALUMINIUM_SPADE, ToolsEnum.toolALUMINIUM).setUnlocalizedName("spadeAluminium").setCreativeTab(CivCraftBase.tabsTools);
 	public static Item spadeCopper = new ItemSpadeCC(ItemIDs.COPPER_SPADE, ToolsEnum.toolCOPPER).setUnlocalizedName("spadeCopper").setCreativeTab(CivCraftBase.tabsTools);
 	public static Item spadeBronze = new ItemSpadeCC(ItemIDs.BRONZE_SPADE, ToolsEnum.toolBRONZE).setUnlocalizedName("spadeBronze").setCreativeTab(CivCraftBase.tabsTools);
 	public static Item spadeSteel = new ItemSpadeCC(ItemIDs.STEEL_SPADE, ToolsEnum.toolSTEEL).setUnlocalizedName("spadeSteel").setCreativeTab(CivCraftBase.tabsTools);
@@ -47,7 +47,7 @@ public class Tools {
 	public static Item spadeDCarbide = new ItemSpadeCC(ItemIDs.DCARBIDE_SPADE, ToolsEnum.toolDCARBIDE).setUnlocalizedName("spadeDCarbide").setCreativeTab(CivCraftBase.tabsTools);
 
 	// Picks
-	public static Item pickaxeAluminum = new ItemPickaxeCC(ItemIDs.ALUMINUM_PICKAXE, ToolsEnum.toolALUMINUM).setUnlocalizedName("pickaxeAluminum").setCreativeTab(CivCraftBase.tabsTools);
+	public static Item pickaxeAluminium = new ItemPickaxeCC(ItemIDs.ALUMINIUM_PICKAXE, ToolsEnum.toolALUMINIUM).setUnlocalizedName("pickaxeAluminium").setCreativeTab(CivCraftBase.tabsTools);
 	public static Item pickaxeCopper = new ItemPickaxeCC(ItemIDs.COPPER_PICKAXE, ToolsEnum.toolCOPPER).setUnlocalizedName("pickaxeCopper").setCreativeTab(CivCraftBase.tabsTools);
 	public static Item pickaxeBronze = new ItemPickaxeCC(ItemIDs.BRONZE_PICKAXE, ToolsEnum.toolBRONZE).setUnlocalizedName("pickaxeBronze").setCreativeTab(CivCraftBase.tabsTools);
 	public static Item pickaxeSteel = new ItemPickaxeCC(ItemIDs.STEEL_PICKAXE, ToolsEnum.toolSTEEL).setUnlocalizedName("pickaxeSteel").setCreativeTab(CivCraftBase.tabsTools);
@@ -57,7 +57,7 @@ public class Tools {
 	public static Item pickaxeDCarbide = new ItemPickaxeCC(ItemIDs.DCARBIDE_PICKAXE, ToolsEnum.toolDCARBIDE).setUnlocalizedName("pickaxeDCarbide").setCreativeTab(CivCraftBase.tabsTools);
 
 	// Swords
-	public static Item swordAluminum = new ItemSwordCC(ItemIDs.ALUMINUM_SWORD, ToolsEnum.toolALUMINUM).setUnlocalizedName("swordAluminum").setCreativeTab(CivCraftBase.tabsCombat);
+	public static Item swordAluminium = new ItemSwordCC(ItemIDs.ALUMINIUM_SWORD, ToolsEnum.toolALUMINIUM).setUnlocalizedName("swordAluminium").setCreativeTab(CivCraftBase.tabsCombat);
 	public static Item swordCopper = new ItemSwordCC(ItemIDs.COPPER_SWORD, ToolsEnum.toolCOPPER).setUnlocalizedName("swordCopper").setCreativeTab(CivCraftBase.tabsCombat);
 	public static Item swordBronze = new ItemSwordCC(ItemIDs.BRONZE_SWORD, ToolsEnum.toolBRONZE).setUnlocalizedName("swordBronze").setCreativeTab(CivCraftBase.tabsCombat);
 	public static Item swordSteel = new ItemSwordCC(ItemIDs.STEEL_SWORD, ToolsEnum.toolSTEEL).setUnlocalizedName("swordSteel").setCreativeTab(CivCraftBase.tabsCombat);
@@ -75,7 +75,7 @@ public class Tools {
 		LanguageRegistry.addName(hammerCarbide, "Carbide Hammer");
 
 		// Axes
-		LanguageRegistry.addName(axeAluminum, "Aluminum Axe");
+		LanguageRegistry.addName(axeAluminium, "Aluminium Axe");
 		LanguageRegistry.addName(axeCopper, "Copper Axe");
 		LanguageRegistry.addName(axeSteel, "Steel Axe");
 		LanguageRegistry.addName(axeBronze, "Bronze Axe");
@@ -85,7 +85,7 @@ public class Tools {
 		LanguageRegistry.addName(axeDCarbide, "Diamond-Carbide Axe");
 
 		// Hoes
-		LanguageRegistry.addName(hoeAluminum, "Aluminum Hoe");
+		LanguageRegistry.addName(hoeAluminium, "Aluminium Hoe");
 		LanguageRegistry.addName(hoeCopper, "Copper Hoe");
 		LanguageRegistry.addName(hoeSteel, "Steel Hoe");
 		LanguageRegistry.addName(hoeBronze, "Bronze Hoe");
@@ -95,7 +95,7 @@ public class Tools {
 		LanguageRegistry.addName(hoeDCarbide, "Diamond-Carbide Hoe");
 
 		// Shovels
-		LanguageRegistry.addName(spadeAluminum, "Aluminum Shovel");
+		LanguageRegistry.addName(spadeAluminium, "Aluminium Shovel");
 		LanguageRegistry.addName(spadeCopper, "Copper Shovel");
 		LanguageRegistry.addName(spadeSteel, "Steel Shovel");
 		LanguageRegistry.addName(spadeBronze, "Bronze Shovel");
@@ -105,7 +105,7 @@ public class Tools {
 		LanguageRegistry.addName(spadeDCarbide, "Diamond-Carbide Spade");
 
 		// Picks
-		LanguageRegistry.addName(pickaxeAluminum, "Aluminum Pickaxe");
+		LanguageRegistry.addName(pickaxeAluminium, "Aluminum Pickaxe");
 		LanguageRegistry.addName(pickaxeCopper, "Copper Pickaxe");
 		LanguageRegistry.addName(pickaxeSteel, "Steel Pickaxe");
 		LanguageRegistry.addName(pickaxeBronze, "Bronze Pickaxe");
@@ -115,7 +115,7 @@ public class Tools {
 		LanguageRegistry.addName(pickaxeDCarbide, "Diamond-Carbide Pickaxe");
 
 		// Swords
-		LanguageRegistry.addName(swordAluminum, "Aluminum Sword");
+		LanguageRegistry.addName(swordAluminium, "Aluminium Sword");
 		LanguageRegistry.addName(swordCopper, "Copper Sword");
 		LanguageRegistry.addName(swordSteel, "Steel Sword");
 		LanguageRegistry.addName(swordBronze, "Bronze Sword");
@@ -125,7 +125,7 @@ public class Tools {
 		LanguageRegistry.addName(swordDCarbide, "Diamond-Carbide Sword");
 
 		// Axes
-		MinecraftForge.setToolClass(axeAluminum, "axe", 1);
+		MinecraftForge.setToolClass(axeAluminium, "axe", 1);
 		MinecraftForge.setToolClass(axeCopper, "axe", 1);
 		MinecraftForge.setToolClass(axeBronze, "axe", 2);
 		MinecraftForge.setToolClass(axeSteel, "axe", 2);
@@ -135,7 +135,7 @@ public class Tools {
 		MinecraftForge.setToolClass(axeDCarbide, "axe", 3);
 
 		// Spades
-		MinecraftForge.setToolClass(spadeAluminum, "shovel", 1);
+		MinecraftForge.setToolClass(spadeAluminium, "shovel", 1);
 		MinecraftForge.setToolClass(spadeCopper, "shovel", 1);
 		MinecraftForge.setToolClass(spadeBronze, "shovel", 2);
 		MinecraftForge.setToolClass(spadeSteel, "shovel", 2);
@@ -145,7 +145,7 @@ public class Tools {
 		MinecraftForge.setToolClass(spadeDCarbide, "shovel", 3);
 
 		// Picks
-		MinecraftForge.setToolClass(pickaxeAluminum, "pickaxe", 1);
+		MinecraftForge.setToolClass(pickaxeAluminium, "pickaxe", 1);
 		MinecraftForge.setToolClass(pickaxeCopper, "pickaxe", 1);
 		MinecraftForge.setToolClass(pickaxeBronze, "pickaxe", 2);
 		MinecraftForge.setToolClass(pickaxeSteel, "pickaxe", 2);

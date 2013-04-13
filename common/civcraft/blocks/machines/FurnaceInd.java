@@ -111,9 +111,9 @@ public class FurnaceInd extends BlockContainer {
 	@Override
 	@SideOnly(Side.CLIENT)
 	public void registerIcons(IconRegister par1IconRegister) {
-		blockIcon = par1IconRegister.registerIcon("CivCraft:Indfurnace_side");
-		field_94459_cP = par1IconRegister.registerIcon(isActive ? "CivCraft:Indfurnace_front_lit" : "CivCraft:Indfurnace_front");
-		field_94458_cO = par1IconRegister.registerIcon("CivCraft:Indfurnace_top");
+		blockIcon = par1IconRegister.registerIcon("CivCraft:indfurnace_side");
+		field_94459_cP = par1IconRegister.registerIcon(isActive ? "CivCraft:indfurnace_front_lit" : "CivCraft:indfurnace_front");
+		field_94458_cO = par1IconRegister.registerIcon("CivCraft:indfurnace_top");
 	}
 
 	/**

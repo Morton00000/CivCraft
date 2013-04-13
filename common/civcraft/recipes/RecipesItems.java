@@ -38,7 +38,7 @@ public class RecipesItems {
 		CraftingManager.getInstance().getRecipeList().add(new ShapedOreRecipe(Items.handle, new Object[] { "x", "x", 'x', "stickWood" }));
 
 		// Computer
-		CraftingManager.getInstance().getRecipeList().add(new ShapedOreRecipe(new ItemStack(Items.misc, 3, 0), new Object[] { "x x", "yyy", "x x", 'x', "ingotAluminum", 'y', "ingotSilicon" }));
+		CraftingManager.getInstance().getRecipeList().add(new ShapedOreRecipe(new ItemStack(Items.misc, 3, 0), new Object[] { "x x", "yyy", "x x", 'x', "ingotAluminium", 'y', "ingotSilicon" }));
 		CraftingManager.getInstance().getRecipeList().add(new ShapedOreRecipe(new ItemStack(Items.misc, 6, 1), new Object[] { "xxx", "yyy", "xxx", 'x', "plastic", 'y', "ingotCopper" }));
 		CraftingManager.getInstance().getRecipeList().add(new ShapedOreRecipe(Items.motherBoard, new Object[] { "xyx", "ysy", "xyx", 'x', Items.wire, 'y', Items.chip, 's', "ingotSilicon" }));
 		CraftingManager.getInstance().getRecipeList().add(new ShapedOreRecipe(Items.motherBoard, new Object[] { "xyx", "ysy", "xyx", 'y', Items.wire, 'x', Items.chip, 's', "ingotSilicon" }));

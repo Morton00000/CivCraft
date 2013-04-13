@@ -9,7 +9,6 @@ import civcraft.CivCraftBase;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 
-@SuppressWarnings("deprecation")
 public class ItemArmorCC extends ItemArmor implements IArmorTextureProvider {
 
 	public ItemArmorCC(int par1, EnumArmorMaterial par2EnumArmorMaterial, int par3, int par4) {
@@ -50,10 +49,10 @@ public class ItemArmorCC extends ItemArmor implements IArmorTextureProvider {
 			return "/mods/CivCraft/textures/armor/de-uranium_1.png";
 		else if (stack.itemID == Armor.legsDUranium.itemID)
 			return "/mods/CivCraft/textures/armor/de-uranium_2.png";
-		else if (stack.itemID == Armor.headAluminum.itemID || stack.itemID == Armor.chestAluminum.itemID || stack.itemID == Armor.bootsAluminum.itemID)
-			return "/mods/CivCraft/textures/armor/aluminum_1.png";
-		else if (stack.itemID == Armor.legsAluminum.itemID)
-			return "/mods/CivCraft/textures/armor/aluminum_2.png";
+		else if (stack.itemID == Armor.headAluminium.itemID || stack.itemID == Armor.chestAluminium.itemID || stack.itemID == Armor.bootsAluminium.itemID)
+			return "/mods/CivCraft/textures/armor/aluminium_1.png";
+		else if (stack.itemID == Armor.legsAluminium.itemID)
+			return "/mods/CivCraft/textures/armor/aluminium_2.png";
 		else if (stack.itemID == Armor.headKevlar.itemID || stack.itemID == Armor.chestKevlar.itemID || stack.itemID == Armor.bootsKevlar.itemID)
 			return "/mods/CivCraft/textures/armor/kevlar_1.png";
 		else if (stack.itemID == Armor.legsKevlar.itemID)

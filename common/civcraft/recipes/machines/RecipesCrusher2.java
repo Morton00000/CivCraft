@@ -33,7 +33,7 @@ public class RecipesCrusher2 {
 		this.addSmelting(Blocks.oreCopper.itemID, 1, new ItemStack(Materials.dust, 2, 1), 0.0F);
 		this.addSmelting(Blocks.orePlatinum.itemID, 2, new ItemStack(Materials.dust, 2, 2), 0.0F);
 		this.addSmelting(Blocks.oreSilver.itemID, 3, new ItemStack(Materials.dust, 2, 3), 0.0F);
-		this.addSmelting(Blocks.oreAluminum.itemID, 4, new ItemStack(Materials.dust, 2, 4), 0.7F);
+		this.addSmelting(Blocks.oreAluminium.itemID, 4, new ItemStack(Materials.dust, 2, 4), 0.7F);
 		this.addSmelting(Blocks.oreTitanium.itemID, 5, new ItemStack(Materials.dust, 2, 5), 0.0F);
 		this.addSmelting(Blocks.oreLead.itemID, 6, new ItemStack(Materials.dust, 2, 6), 0.0F);
 		this.addSmelting(Blocks.oreMercury.itemID, 7, new ItemStack(Materials.dust, 2, 7), 0.0F);

@@ -51,7 +51,7 @@ public class RecipesFurnaceInd {
 		this.addSmelting(Blocks.oreCopper.itemID, 1, Materials.ingotCopper, 0.7F);
 		this.addSmelting(Blocks.orePlatinum.itemID, 2, Materials.ingotPlatinum, 1.0F);
 		this.addSmelting(Blocks.oreSilver.itemID, 3, Materials.ingotSilver, 1.0F);
-		this.addSmelting(Blocks.oreAluminum.itemID, 4, Materials.ingotAluminum, 0.7F);
+		this.addSmelting(Blocks.oreAluminium.itemID, 4, Materials.ingotAluminium, 0.7F);
 		this.addSmelting(Blocks.oreTitanium.itemID, 5, Materials.ingotTitanium, 1.0F);
 		this.addSmelting(Blocks.oreLead.itemID, 6, Materials.ingotLead, 0.7F);
 
@@ -62,7 +62,7 @@ public class RecipesFurnaceInd {
 		this.addSmelting(Materials.dustCopper.itemID, 1, Materials.ingotCopper, 0.7F);
 		this.addSmelting(Materials.dustPlatinum.itemID, 2, Materials.ingotPlatinum, 1.0F);
 		this.addSmelting(Materials.dustSilver.itemID, 3, Materials.ingotSilver, 1.0F);
-		this.addSmelting(Materials.dustAluminum.itemID, 4, Materials.ingotAluminum, 0.7F);
+		this.addSmelting(Materials.dustAluminium.itemID, 4, Materials.ingotAluminium, 0.7F);
 		this.addSmelting(Materials.dustTitanium.itemID, 5, Materials.ingotTitanium, 1.0F);
 		this.addSmelting(Materials.dustLead.itemID, 6, Materials.ingotLead, 0.7F);
 

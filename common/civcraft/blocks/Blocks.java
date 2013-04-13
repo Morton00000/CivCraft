@@ -20,14 +20,14 @@ public class Blocks {
 	// Block
 	public static final Block block = new BlockBlock(BlockIDs.BLOCK);
 
-	public static final String[] blockNames = { "Tin Block", "Copper Block", "Platinum Block", "Silver Block", "Aluminum Block", "Titanium Block", "Lead Block", "Mercury Block", "Zinc Block", "Tungsten Block", "Uranium Block", "Bronze Block", "Brass Block", "Steel Block", "Carbide Block", "Silicon Block" };
+	public static final String[] blockNames = { "Tin Block", "Copper Block", "Platinum Block", "Silver Block", "Aluminium Block", "Titanium Block", "Lead Block", "Mercury Block", "Zinc Block", "Tungsten Block", "Uranium Block", "Bronze Block", "Brass Block", "Steel Block", "Carbide Block", "Silicon Block" };
 
 	// Ore Reference List
 	public static ItemStack oreTin = new ItemStack(ore, 1, 0);
 	public static ItemStack oreCopper = new ItemStack(ore, 1, 1);
 	public static ItemStack orePlatinum = new ItemStack(ore, 1, 2);
 	public static ItemStack oreSilver = new ItemStack(ore, 1, 3);
-	public static ItemStack oreAluminum = new ItemStack(ore, 1, 4);
+	public static ItemStack oreAluminium = new ItemStack(ore, 1, 4);
 	public static ItemStack oreTitanium = new ItemStack(ore, 1, 5);
 	public static ItemStack oreLead = new ItemStack(ore, 1, 6);
 	public static ItemStack oreMercury = new ItemStack(ore, 1, 7);
@@ -40,7 +40,7 @@ public class Blocks {
 	public static ItemStack blockCopper = new ItemStack(block, 1, 1);
 	public static ItemStack blockPlatinum = new ItemStack(block, 1, 2);
 	public static ItemStack blockSilver = new ItemStack(block, 1, 3);
-	public static ItemStack blockAluminum = new ItemStack(block, 1, 4);
+	public static ItemStack blockAluminium = new ItemStack(block, 1, 4);
 	public static ItemStack blockTitanium = new ItemStack(block, 1, 5);
 	public static ItemStack blockLead = new ItemStack(block, 1, 6);
 	public static ItemStack blockMercury = new ItemStack(block, 1, 7);
@@ -109,7 +109,8 @@ public class Blocks {
 		OreDictionary.registerOre("oreCopper", oreCopper);
 		OreDictionary.registerOre("orePlatinum", orePlatinum);
 		OreDictionary.registerOre("oreSilver", oreSilver);
-		OreDictionary.registerOre("oreBauxite", oreAluminum);
+		OreDictionary.registerOre("oreAluminium", oreAluminium);
+		OreDictionary.registerOre("oreBauxite", oreAluminium);
 		OreDictionary.registerOre("oreTitanium", oreTitanium);
 		OreDictionary.registerOre("oreLead", oreLead);
 		OreDictionary.registerOre("oreMercury", oreMercury);
@@ -128,7 +129,7 @@ public class Blocks {
 		OreDictionary.registerOre("blockCopper", blockCopper);
 		OreDictionary.registerOre("blockPlatinum", blockPlatinum);
 		OreDictionary.registerOre("blockSilver", blockSilver);
-		OreDictionary.registerOre("blockAluminum", blockAluminum);
+		OreDictionary.registerOre("blockAluminium", blockAluminium);
 		OreDictionary.registerOre("blockTitanium", blockTitanium);
 		OreDictionary.registerOre("blockLead", blockLead);
 		OreDictionary.registerOre("blockMercury", blockMercury);

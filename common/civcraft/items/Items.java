@@ -26,7 +26,7 @@ public class Items {
 	public static ItemStack handle = new ItemStack(misc, 1, 8);
 
 	// Buckets
-	public static Item bucketPlasticEmpty = new ItemBucketPlastic(ItemIDs.BUCKET_EMPTY, 0).setUnlocalizedName("bucketPlastic").setMaxStackSize(32).setCreativeTab(CivCraftBase.tabsMisc);
+	public static Item bucketPlasticEmpty = new ItemBucketPlastic(ItemIDs.BUCKET_EMPTY, 0).setUnlocalizedName("bucketPlastic").setMaxStackSize(16).setCreativeTab(CivCraftBase.tabsMisc);
 	public static Item bucketPlasticWater = new ItemBucketPlastic(ItemIDs.BUCKET_WATER, Block.waterMoving.blockID).setUnlocalizedName("bucketPlastickWater").setMaxStackSize(1).setCreativeTab(CivCraftBase.tabsMisc);
 	public static Item bucketPlasticMilk = new ItemBucketPlasticMilk(ItemIDs.BUCKET_MILK).setUnlocalizedName("bucketPlasticMilk").setMaxStackSize(1).setCreativeTab(CivCraftBase.tabsMisc);
 

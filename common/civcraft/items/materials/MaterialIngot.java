@@ -14,12 +14,10 @@ import cpw.mods.fml.relauncher.SideOnly;
 
 public class MaterialIngot extends Item {
 
-	public static final String[] ingotNames = new String[] { "tin", "copper", "platinum", "silver", "aluminum", "titanium", "lead", "mercury", "zinc", "tungsten", "uranium", "bronze", "brass", "steel", "carbide", "silicon" };
+	public static final String[] ingotNames = new String[] { "tin", "copper", "platinum", "silver", "aluminium", "titanium", "lead", "mercury", "zinc", "tungsten", "uranium", "bronze", "brass", "steel", "carbide", "silicon" };
 
-	public static final String[] ingot = new String[] { "ingot_tin", "ingot_copper", "ingot_platinum", "ingot_silver", "ingot_aluminum", "ingot_titanium", "ingot_lead", "ingot_mercury", "ingot_zinc", "ingot_tungsten", "ingot_uranium", "ingot_bronze", "ingot_brass", "ingot_steel", "ingot_carbide", "ingot_silicon" };
+	public static final String[] ingot = new String[] { "ingot_tin", "ingot_copper", "ingot_platinum", "ingot_silver", "ingot_aluminium", "ingot_titanium", "ingot_lead", "ingot_mercury", "ingot_zinc", "ingot_tungsten", "ingot_uranium", "ingot_bronze", "ingot_brass", "ingot_steel", "ingot_carbide", "ingot_silicon" };
 
-	@SideOnly(Side.CLIENT)
-	private Icon[] field_94594_d;
 	@SideOnly(Side.CLIENT)
 	public static Icon[] textures;
 
@@ -39,7 +37,7 @@ public class MaterialIngot extends Item {
 		textures[1] = iconRegistry.registerIcon("CivCraft:ingotCopper");
 		textures[2] = iconRegistry.registerIcon("CivCraft:ingotPlatinum");
 		textures[3] = iconRegistry.registerIcon("CivCraft:ingotSilver");
-		textures[4] = iconRegistry.registerIcon("CivCraft:ingotAluminum");
+		textures[4] = iconRegistry.registerIcon("CivCraft:ingotAluminium");
 		textures[5] = iconRegistry.registerIcon("CivCraft:ingotTitanium");
 		textures[6] = iconRegistry.registerIcon("CivCraft:ingotLead");
 		textures[7] = iconRegistry.registerIcon("CivCraft:ingotMercury");
@@ -75,14 +73,6 @@ public class MaterialIngot extends Item {
 	public void getSubItems(int par1, CreativeTabs par2CreativeTabs, List par3List) {
 		for (int var4 = 0; var4 < 16; ++var4) {
 			par3List.add(new ItemStack(par1, 1, var4));
-		}
-	}
-
-	@SideOnly(Side.CLIENT)
-	public void func_94581_a(IconRegister par1IconRegister) {
-		field_94594_d = new Icon[ingot.length];
-		for (int i = 0; i < ingot.length; ++i) {
-			field_94594_d[i] = par1IconRegister.registerIcon(ingot[i]);
 		}
 	}
 }

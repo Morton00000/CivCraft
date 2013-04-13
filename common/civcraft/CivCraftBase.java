@@ -29,6 +29,7 @@ import civcraft.recipes.RecipesItems;
 import civcraft.recipes.RecipesMaterials;
 import civcraft.recipes.RecipesMolds;
 import civcraft.recipes.RecipesTools;
+import civcraft.recipes.RecipesToolsHeads;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.Mod.Init;
 import cpw.mods.fml.common.Mod.Instance;
@@ -43,11 +44,11 @@ import cpw.mods.fml.common.network.NetworkRegistry;
 import cpw.mods.fml.common.registry.GameRegistry;
 import cpw.mods.fml.common.registry.LanguageRegistry;
 
-@Mod(modid = "civcraft", name = "CivCraft", version = "test-ver 0.6.2")
-@NetworkMod(channels = "civcraft", clientSideRequired = true, serverSideRequired = false, packetHandler = PacketHandler.class)
+@Mod(modid = "CivCraft", name = "CivCraft", version = "test-ver 0.6.2")
+@NetworkMod(channels = "CivCraft", clientSideRequired = true, serverSideRequired = false, packetHandler = PacketHandler.class)
 public class CivCraftBase {
 
-	@Instance("civcraft")
+	@Instance("CivCraft")
 	public static CivCraftBase instance = new CivCraftBase();
 
 	@SidedProxy(clientSide = "civcraft.proxy.ClientProxy", serverSide = "civcraft.proxy.CommonProxy")
@@ -85,6 +86,7 @@ public class CivCraftBase {
 		RecipesItems.init();
 		RecipesMaterials.init();
 		RecipesTools.init();
+		RecipesToolsHeads.init();
 		RecipesArmor.init();
 		RecipesMolds.init();
 

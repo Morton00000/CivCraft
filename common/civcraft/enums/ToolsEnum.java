@@ -9,7 +9,7 @@ public class ToolsEnum {
 	public static EnumToolMaterial toolFLINT = EnumHelper.addToolMaterial("FLINT", 2, 20, 1F, 0, 5);
 
 	// Used
-	public static EnumToolMaterial toolALUMINUM = EnumHelper.addToolMaterial("ALUMINUM", 1, 100, 10F, 0, 18);
+	public static EnumToolMaterial toolALUMINIUM = EnumHelper.addToolMaterial("ALUMINIUM", 1, 100, 10F, 0, 18);
 	public static EnumToolMaterial toolCOPPER = EnumHelper.addToolMaterial("COPPER", 1, 150, 3F, 1, 10);
 	public static EnumToolMaterial toolBRONZE = EnumHelper.addToolMaterial("BRONZE", 2, 300, 6F, 2, 14);
 	public static EnumToolMaterial toolDURANIUM = EnumHelper.addToolMaterial("DURANIUM", 3, 400, 10F, 4, 22);

@@ -14,12 +14,10 @@ import cpw.mods.fml.relauncher.SideOnly;
 
 public class HeadsHoe extends Item {
 
-	public static final String[] hoeHeadNames = new String[] { "copper", "aluminum", "titanium", "duranium", "bronze", "steel", "carbide", "dcarbide", "iron", "gold" };
+	public static final String[] hoeHeadNames = new String[] { "copper", "Aluminium", "titanium", "duranium", "bronze", "steel", "carbide", "dcarbide", "iron", "gold" };
 
-	public static final String[] hoeHead = new String[] { "copper", "aluminum", "titanium", "duranium", "bronze", "steel", "carbide", "dcarbide", "iron", "gold" };
+	public static final String[] hoeHead = new String[] { "copper", "Aluminium", "titanium", "duranium", "bronze", "steel", "carbide", "dcarbide", "iron", "gold" };
 
-	@SideOnly(Side.CLIENT)
-	private Icon[] field_94594_d;
 	@SideOnly(Side.CLIENT)
 	public static Icon[] textures;
 
@@ -28,6 +26,7 @@ public class HeadsHoe extends Item {
 		this.setHasSubtypes(true);
 		this.setUnlocalizedName("hoeHead");
 		this.setCreativeTab(CivCraftBase.tabsMisc);
+		this.setMaxStackSize(4);
 	}
 
 	@Override
@@ -36,7 +35,7 @@ public class HeadsHoe extends Item {
 		textures = new Icon[10];
 
 		textures[0] = iconRegistry.registerIcon("CivCraft:hoeHeadCopper");
-		textures[1] = iconRegistry.registerIcon("CivCraft:hoeHeadAluminum");
+		textures[1] = iconRegistry.registerIcon("CivCraft:hoeHeadAluminium");
 		textures[2] = iconRegistry.registerIcon("CivCraft:hoeHeadTitanium");
 		textures[3] = iconRegistry.registerIcon("CivCraft:hoeHeadDUranium");
 		textures[4] = iconRegistry.registerIcon("CivCraft:hoeHeadBronze");
@@ -69,14 +68,6 @@ public class HeadsHoe extends Item {
 	public void getSubItems(int par1, CreativeTabs par2CreativeTabs, List par3List) {
 		for (int var4 = 0; var4 < 10; ++var4) {
 			par3List.add(new ItemStack(par1, 1, var4));
-		}
-	}
-
-	@SideOnly(Side.CLIENT)
-	public void func_94581_a(IconRegister par1IconRegister) {
-		field_94594_d = new Icon[hoeHead.length];
-		for (int i = 0; i < hoeHead.length; ++i) {
-			field_94594_d[i] = par1IconRegister.registerIcon(hoeHead[i]);
 		}
 	}
 }

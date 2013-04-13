@@ -13,19 +13,19 @@ public class Materials {
 	// Dust
 	public static final Item dust = new MaterialDust(ItemIDs.DUST);
 
-	public static final String[] dustNames = { "Tin Dust", "Copper Dust", "Platinum Dust", "Silver Dust", "Aluminum Dust", "Titanium Dust", "Lead Dust", "Cinnibar Dust", "Zinc Dust", "Tungsten Dust", "Uranium Dust", "Bronze Dust", "Brass Dust", "Steel Dust", "Carbide Dust", "Silicon Dust", "Yellow Cake Dust", "Gold Dust", "Iron Dust" };
+	public static final String[] dustNames = { "Tin Dust", "Copper Dust", "Platinum Dust", "Silver Dust", "Bauxite Dust", "Titanium Dust", "Lead Dust", "Cinnibar Dust", "Zinc Dust", "Tungsten Dust", "Uranium Dust", "Bronze Dust", "Brass Dust", "Steel Dust", "Carbide Dust", "Silicon Dust", "Yellow Cake Dust", "Gold Dust", "Iron Dust" };
 
 	// Ingot
 	public static final Item ingot = new MaterialIngot(ItemIDs.INGOT);
 
-	public static final String[] ingotNames = { "Tin Ingot", "Copper Ingot", "Platinum Ingot", "Silver Ingot", "Aluminum Ingot", "Titanium Ingot", "Lead Ingot", "Mercury Glob", "Zinc Ingot", "Tungsten Ingot", "Uranium Ingot", "Bronze Ingot", "Brass Ingot", "Steel Ingot", "Carbide Ingot", "Silicon Ingot" };
+	public static final String[] ingotNames = { "Tin Ingot", "Copper Ingot", "Platinum Ingot", "Silver Ingot", "Aluminium Ingot", "Titanium Ingot", "Lead Ingot", "Mercury Glob", "Zinc Ingot", "Tungsten Ingot", "Uranium Ingot", "Bronze Ingot", "Brass Ingot", "Steel Ingot", "Carbide Ingot", "Silicon Ingot" };
 
 	// Dust Reference List
 	public static ItemStack dustTin = new ItemStack(dust, 1, 0);
 	public static ItemStack dustCopper = new ItemStack(dust, 1, 1);
 	public static ItemStack dustPlatinum = new ItemStack(dust, 1, 2);
 	public static ItemStack dustSilver = new ItemStack(dust, 1, 3);
-	public static ItemStack dustAluminum = new ItemStack(dust, 1, 4);
+	public static ItemStack dustAluminium = new ItemStack(dust, 1, 4);
 	public static ItemStack dustTitanium = new ItemStack(dust, 1, 5);
 	public static ItemStack dustLead = new ItemStack(dust, 1, 6);
 	public static ItemStack dustMercury = new ItemStack(dust, 1, 7);
@@ -46,7 +46,7 @@ public class Materials {
 	public static ItemStack ingotCopper = new ItemStack(ingot, 1, 1);
 	public static ItemStack ingotPlatinum = new ItemStack(ingot, 1, 2);
 	public static ItemStack ingotSilver = new ItemStack(ingot, 1, 3);
-	public static ItemStack ingotAluminum = new ItemStack(ingot, 1, 4);
+	public static ItemStack ingotAluminium = new ItemStack(ingot, 1, 4);
 	public static ItemStack ingotTitanium = new ItemStack(ingot, 1, 5);
 	public static ItemStack ingotLead = new ItemStack(ingot, 1, 6);
 	public static ItemStack ingotMercury = new ItemStack(ingot, 1, 7);
@@ -94,7 +94,8 @@ public class Materials {
 		OreDictionary.registerOre("dustCopper", dustCopper);
 		OreDictionary.registerOre("dustPlatinum", dustPlatinum);
 		OreDictionary.registerOre("dustSilver", dustSilver);
-		OreDictionary.registerOre("dustAluminum", dustAluminum);
+		OreDictionary.registerOre("dustAluminium", dustAluminium);
+		OreDictionary.registerOre("dustBauxite", dustAluminium);
 		OreDictionary.registerOre("dustTitanium", dustTitanium);
 		OreDictionary.registerOre("dustLead", dustLead);
 		OreDictionary.registerOre("dustMercury", dustMercury);
@@ -115,7 +116,7 @@ public class Materials {
 		OreDictionary.registerOre("ingotCopper", ingotCopper);
 		OreDictionary.registerOre("ingotPlatinum", ingotPlatinum);
 		OreDictionary.registerOre("ingotSilver", ingotSilver);
-		OreDictionary.registerOre("ingotAluminum", ingotAluminum);
+		OreDictionary.registerOre("ingotAluminium", ingotAluminium);
 		OreDictionary.registerOre("ingotTitanium", ingotTitanium);
 		OreDictionary.registerOre("ingotLead", ingotLead);
 		OreDictionary.registerOre("ingotMercury", ingotMercury);

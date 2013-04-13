@@ -19,8 +19,6 @@ public class MoldItems extends Item {
 	public static final String[] mold = new String[] { "axe", "hoe", "spade", "pick", "sword", "head", "chest", "legs", "feet" };
 
 	@SideOnly(Side.CLIENT)
-	private Icon[] field_94594_d;
-	@SideOnly(Side.CLIENT)
 	public static Icon[] textures;
 
 	public MoldItems(int id) {
@@ -28,6 +26,7 @@ public class MoldItems extends Item {
 		this.setHasSubtypes(true);
 		this.setUnlocalizedName("mold");
 		this.setCreativeTab(CivCraftBase.tabsMisc);
+		this.setMaxStackSize(16);
 	}
 
 	@Override
@@ -68,14 +67,6 @@ public class MoldItems extends Item {
 	public void getSubItems(int par1, CreativeTabs par2CreativeTabs, List par3List) {
 		for (int var4 = 0; var4 < 9; ++var4) {
 			par3List.add(new ItemStack(par1, 1, var4));
-		}
-	}
-
-	@SideOnly(Side.CLIENT)
-	public void func_94581_a(IconRegister par1IconRegister) {
-		field_94594_d = new Icon[mold.length];
-		for (int i = 0; i < mold.length; ++i) {
-			field_94594_d[i] = par1IconRegister.registerIcon(mold[i]);
 		}
 	}
 }
