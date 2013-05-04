@@ -4,7 +4,6 @@ import java.io.File;
 
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.ItemStack;
-import net.minecraftforge.client.MinecraftForgeClient;
 import civcraft.blocks.Blocks;
 import civcraft.blocks.Machines;
 import civcraft.creativetabs.CreativeTabBlock;
@@ -173,43 +172,6 @@ public class CivCraftBase {
 			ItemStack moldStack = new ItemStack(Molds.mold, 1, ix);
 			LanguageRegistry.addName(moldStack, Molds.moldNames[moldStack.getItemDamage()]);
 		}
-
-		// *Textures*
-		// GUI
-		MinecraftForgeClient.preloadTexture("/mods/CivCraft/textures/gui/furnaceBlast.png");
-		MinecraftForgeClient.preloadTexture("/mods/CivCraft/textures/gui/furnaceInd.png");
-		MinecraftForgeClient.preloadTexture("/mods/CivCraft/textures/gui/furnaceMold.png");
-
-		MinecraftForgeClient.preloadTexture("/mods/CivCraft/textures/gui/crusher1.png");
-		MinecraftForgeClient.preloadTexture("/mods/CivCraft/textures/gui/crusher2.png");
-
-		MinecraftForgeClient.preloadTexture("/mods/CivCraft/textures/gui/plasticOven.png");
-
-		// Armor
-		MinecraftForgeClient.preloadTexture("/mods/CivCraft/textures/armor/aluminum_1.png");
-		MinecraftForgeClient.preloadTexture("/mods/CivCraft/textures/armor/aluminum_2.png");
-
-		MinecraftForgeClient.preloadTexture("/mods/CivCraft/textures/armor/copper_1.png");
-		MinecraftForgeClient.preloadTexture("/mods/CivCraft/textures/armor/copper_2.png");
-
-		MinecraftForgeClient.preloadTexture("/mods/CivCraft/textures/armor/bronze_1.png");
-		MinecraftForgeClient.preloadTexture("/mods/CivCraft/textures/armor/bronze_2.png");
-
-		MinecraftForgeClient.preloadTexture("/mods/CivCraft/textures/armor/steel_1.png");
-		MinecraftForgeClient.preloadTexture("/mods/CivCraft/textures/armor/steel_2.png");
-
-		MinecraftForgeClient.preloadTexture("/mods/CivCraft/textures/armor/carbide_1.png");
-		MinecraftForgeClient.preloadTexture("/mods/CivCraft/textures/armor/carbide_2.png");
-
-		MinecraftForgeClient.preloadTexture("/mods/CivCraft/textures/armor/titanium_1.png");
-		MinecraftForgeClient.preloadTexture("/mods/CivCraft/textures/armor/titanium_2.png");
-
-		MinecraftForgeClient.preloadTexture("/mods/CivCraft/textures/armor/de-uranium_1.png");
-		MinecraftForgeClient.preloadTexture("/mods/CivCraft/textures/armor/de-uranium_2.png");
-
-		MinecraftForgeClient.preloadTexture("/mods/CivCraft/textures/armor/kevlar_1.png");
-		MinecraftForgeClient.preloadTexture("/mods/CivCraft/textures/armor/kevlar_2.png");
-
 	}
 
 	@PostInit

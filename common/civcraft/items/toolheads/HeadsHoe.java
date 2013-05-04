@@ -29,7 +29,6 @@ public class HeadsHoe extends Item {
 		this.setMaxStackSize(4);
 	}
 
-	@Override
 	@SideOnly(Side.CLIENT)
 	public void updateIcons(IconRegister iconRegistry) {
 		textures = new Icon[10];

@@ -29,7 +29,6 @@ public class MoldItems extends Item {
 		this.setMaxStackSize(16);
 	}
 
-	@Override
 	@SideOnly(Side.CLIENT)
 	public void updateIcons(IconRegister iconRegistry) {
 		textures = new Icon[9];

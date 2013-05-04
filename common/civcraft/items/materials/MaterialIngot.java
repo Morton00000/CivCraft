@@ -28,7 +28,6 @@ public class MaterialIngot extends Item {
 		this.setCreativeTab(CivCraftBase.tabsMaterials);
 	}
 
-	@Override
 	@SideOnly(Side.CLIENT)
 	public void updateIcons(IconRegister iconRegistry) {
 		textures = new Icon[16];

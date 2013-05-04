@@ -99,7 +99,6 @@ public class Crusher2 extends BlockContainer {
 		}
 	}
 
-	@Override
 	@SideOnly(Side.CLIENT)
 	/**
 	 * From the specified side and block metadata retrieves the blocks texture. Args: side, metadata
@@ -279,6 +278,6 @@ public class Crusher2 extends BlockContainer {
 	}
 
 	public int func_94328_b_(World par1World, int par2, int par3, int par4, int par5) {
-		return Container.func_94526_b((IInventory) par1World.getBlockTileEntity(par2, par3, par4));
+		return Container.calcRedstoneFromInventory((IInventory) par1World.getBlockTileEntity(par2, par3, par4));
 	}
 }

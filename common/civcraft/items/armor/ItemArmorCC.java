@@ -4,26 +4,23 @@ import net.minecraft.client.renderer.texture.IconRegister;
 import net.minecraft.item.EnumArmorMaterial;
 import net.minecraft.item.ItemArmor;
 import net.minecraft.item.ItemStack;
-import net.minecraftforge.common.IArmorTextureProvider;
 import civcraft.CivCraftBase;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 
-public class ItemArmorCC extends ItemArmor implements IArmorTextureProvider {
+public class ItemArmorCC extends ItemArmor {
 
 	public ItemArmorCC(int par1, EnumArmorMaterial par2EnumArmorMaterial, int par3, int par4) {
 		super(par1, par2EnumArmorMaterial, par3, par4);
 		this.setCreativeTab(CivCraftBase.tabsCombat);
 	}
 
-	@Override
 	@SideOnly(Side.CLIENT)
 	public void updateIcons(IconRegister iconRegister) {
-		iconIndex = iconRegister.registerIcon("CivCraft" + ":" + this.getUnlocalizedName().substring(this.getUnlocalizedName().indexOf(".") + 1));
+		itemIcon = iconRegister.registerIcon("CivCraft" + ":" + this.getUnlocalizedName().substring(this.getUnlocalizedName().indexOf(".") + 1));
 	}
 
-	@Override
-	public String getArmorTextureFile(ItemStack stack) {
+	public String getArmorTexture(ItemStack stack) {
 
 		if (stack.itemID == Armor.headCopper.itemID || stack.itemID == Armor.chestCopper.itemID || stack.itemID == Armor.bootsCopper.itemID)
 			return "/mods/CivCraft/textures/armor/copper_1.png";

@@ -351,93 +351,104 @@ public class TileFurnaceInd extends TileEntity implements ISidedInventory, net.m
 		}
 	}
 
-	/**
-	 * Return true if item is a fuel source (getItemBurnTime() > 0).
-	 */
-	public static boolean isItemFuel(ItemStack par0ItemStack) {
-		return getItemBurnTime(par0ItemStack) > 0;
-	}
+    /**
+     * Return true if item is a fuel source (getItemBurnTime() > 0).
+     */
+    public static boolean isItemFuel(ItemStack par0ItemStack)
+    {
+        return getItemBurnTime(par0ItemStack) > 0;
+    }
 
-	/**
-	 * Do not make give this method the name canInteractWith because it clashes
-	 * with Container
-	 */
-	@Override
-	public boolean isUseableByPlayer(EntityPlayer par1EntityPlayer) {
-		return worldObj.getBlockTileEntity(xCoord, yCoord, zCoord) != this ? false : par1EntityPlayer.getDistanceSq(xCoord + 0.5D, yCoord + 0.5D, zCoord + 0.5D) <= 64.0D;
-	}
+    /**
+     * Do not make give this method the name canInteractWith because it clashes with Container
+     */
+    public boolean isUseableByPlayer(EntityPlayer par1EntityPlayer)
+    {
+        return this.worldObj.getBlockTileEntity(this.xCoord, this.yCoord, this.zCoord) != this ? false : par1EntityPlayer.getDistanceSq((double)this.xCoord + 0.5D, (double)this.yCoord + 0.5D, (double)this.zCoord + 0.5D) <= 64.0D;
+    }
 
-	@Override
-	public void openChest() {}
+    public void openChest() {}
 
-	@Override
-	public void closeChest() {}
+    public void closeChest() {}
 
-	/**
-	 * Returns true if automation is allowed to insert the given stack (ignoring
-	 * stack size) into the given slot.
-	 */
-	@Override
-	public boolean isStackValidForSlot(int par1, ItemStack par2ItemStack) {
-		return par1 == 2 ? false : par1 == 1 ? isItemFuel(par2ItemStack) : true;
-	}
+    /**
+     * Returns true if automation is allowed to insert the given stack (ignoring stack size) into the given slot.
+     */
+    public boolean isStackValidForSlot(int par1, ItemStack par2ItemStack)
+    {
+        return par1 == 2 ? false : (par1 == 1 ? isItemFuel(par2ItemStack) : true);
+    }
 
-	/**
-	 * Get the size of the side inventory.
-	 */
-	@Override
-	public int[] getSizeInventorySide(int par1) {
-		return par1 == 0 ? field_102011_e : par1 == 1 ? field_102010_d : field_102009_f;
-	}
+    /**
+     * Returns an array containing the indices of the slots that can be accessed by automation on the given side of this
+     * block.
+     */
+    public int[] getAccessibleSlotsFromSide(int par1)
+    {
+        return par1 == 0 ? field_102011_e : (par1 == 1 ? field_102010_d : field_102009_f);
+    }
 
-	@Override
-	public boolean func_102007_a(int par1, ItemStack par2ItemStack, int par3) {
-		return this.isStackValidForSlot(par1, par2ItemStack);
-	}
+    /**
+     * Returns true if automation can insert the given item in the given slot from the given side. Args: Slot, item,
+     * side
+     */
+    public boolean canInsertItem(int par1, ItemStack par2ItemStack, int par3)
+    {
+        return this.isStackValidForSlot(par1, par2ItemStack);
+    }
 
-	@Override
-	public boolean func_102008_b(int par1, ItemStack par2ItemStack, int par3) {
-		return par3 != 0 || par1 != 1 || par2ItemStack.itemID == Item.bucketEmpty.itemID;
-	}
+    /**
+     * Returns true if automation can extract the given item in the given slot from the given side. Args: Slot, item,
+     * side
+     */
+    public boolean canExtractItem(int par1, ItemStack par2ItemStack, int par3)
+    {
+        return par3 != 0 || par1 != 1 || par2ItemStack.itemID == Item.bucketEmpty.itemID;
+    }
 
-	/***********************************************************************************
-	 * This function is here for compatibilities sake, Modders should Check for
-	 * Sided before ContainerWorldly, Vanilla Minecraft does not follow the
-	 * sided standard that Modding has for a while.
-	 * 
-	 * In vanilla:
-	 * 
-	 * Top: Ores Sides: Fuel Bottom: Output
-	 * 
-	 * Standard Modding: Top: Ores Sides: Output Bottom: Fuel
-	 * 
-	 * The Modding one is designed after the GUI, the vanilla one is designed
-	 * because its intended use is for the hopper, which logically would take
-	 * things in from the top.
-	 * 
-	 * This will possibly be removed in future updates, and make vanilla the
-	 * definitive standard.
-	 */
+    /***********************************************************************************
+     * This function is here for compatibilities sake, Modders should Check for
+     * Sided before ContainerWorldly, Vanilla Minecraft does not follow the sided standard
+     * that Modding has for a while.
+     *
+     * In vanilla:
+     *
+     *   Top: Ores
+     *   Sides: Fuel
+     *   Bottom: Output
+     *
+     * Standard Modding:
+     *   Top: Ores
+     *   Sides: Output
+     *   Bottom: Fuel
+     *
+     * The Modding one is designed after the GUI, the vanilla one is designed because its
+     * intended use is for the hopper, which logically would take things in from the top.
+     *
+     * This will possibly be removed in future updates, and make vanilla the definitive
+     * standard.
+     */
 
-	@Override
-	public int getStartInventorySide(ForgeDirection side) {
-		if (ForgeDummyContainer.legacyFurnaceSides) {
-			if (side == ForgeDirection.DOWN)
-				return 1;
-			if (side == ForgeDirection.UP)
-				return 0;
-			return 2;
-		} else {
-			if (side == ForgeDirection.DOWN)
-				return 2;
-			if (side == ForgeDirection.UP)
-				return 0;
-			return 1;
-		}
-	}
+    @Override
+    public int getStartInventorySide(ForgeDirection side)
+    {
+        if (ForgeDummyContainer.legacyFurnaceSides)
+        {
+            if (side == ForgeDirection.DOWN) return 1;
+            if (side == ForgeDirection.UP) return 0;
+            return 2;
+        }
+        else
+        {
+            if (side == ForgeDirection.DOWN) return 2;
+            if (side == ForgeDirection.UP) return 0;
+            return 1;
+        }
+    }
 
-	@Override
-	public int getSizeInventorySide(ForgeDirection side) {
-		return 1;
-	}
+    @Override
+    public int getSizeInventorySide(ForgeDirection side)
+    {
+        return 1;
+    }
 }
