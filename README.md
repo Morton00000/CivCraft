@@ -25,7 +25,6 @@ Current things to work on are:
 	* Renaming the mod to something more proper.
 	* Fix the naming for the creative tabs ingame.
 	* Various support for other mods like IC2 and RailCraft.
-	* Posibly add in more food? (I just want to do textures for more food)
 
 ***
 ###Other Information
